@@ -89,7 +89,6 @@ mpmath==1.0.0
 msgpack==0.5.6
 msgpack-python==0.5.1
 multipledispatch==0.4.9
-navigator-updater==0.1.0
 nb-conda-kernels==2.1.1
 nbconvert==5.3.1
 nbformat==4.4.0
