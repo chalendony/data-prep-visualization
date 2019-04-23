@@ -1,7 +1,6 @@
 data-prep-env/
 .ipynb_checkpoints/
 DataWig - A First Look.ipynb
-data/
 .idea
 .DS_Store
 __init__.py
