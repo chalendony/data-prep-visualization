@@ -40,14 +40,6 @@ filelock==2.0.13
 Flask==0.12.2
 Flask-Cors==3.0.3
 future==0.17.1
-fxanalytics-data-loading==1.0.8
-fxanalytics-data-preprocessing==1.1.2
-fxanalytics-feature-engineering==1.0.5
-fxanalytics-feature-extractor==2.1.6
-fxanalytics-modelling==1.2.13
-fxanalytics-request-adapter==1.4.9
-fxanalytics-thresholds==1.1.0
-fxanalytics-utils==1.0.0
 gevent==1.2.2
 glob2==0.6
 gmpy2==2.0.8
