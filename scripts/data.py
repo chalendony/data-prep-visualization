@@ -10,6 +10,7 @@ htsensor_columns = ['timestamp', 'Start Symbol', 'Zustand', 'Zeitstempel', 'Temp
                     ]
 
 
+
 def braunschweig(url):
 
     # read data from file: parse the date after reading, just as a sanity check
