@@ -112,6 +112,7 @@ Notes:
 ** exceeds threshold for missingness
 
 * Drop Rows:
+** in a child tables if foreign key of child is not present in primary key of a parent table
 ** if can not impute
 
 * Impute Rows 
