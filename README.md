@@ -1,3 +1,8 @@
+catmissingcols = {'previous_application': ['NAME_TYPE_SUITE', 'NFLAG_INSURED_ON_APPROVAL', 'PRODUCT_COMBINATION'],
+'application_train': ['FONDKAPREMONT_MODE','WALLSMATERIAL_MODE','WALLSMATERIAL_MODE',
+'EMERGENCYSTATE_MODE', 'OCCUPATION_TYPE', 'NAME_TYPE_SUITE']}
+
+
 * Interactive Visualization
  - plotly
  - bokeh
