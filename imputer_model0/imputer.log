@@ -1,0 +1,2109 @@
+2019-04-30 23:55:18,740 [INFO]  Using [[cpu(0)]] as the context for training
+2019-04-30 23:55:18,744 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-04-30 23:55:18,760 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-04-30 23:55:18,762 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-04-30 23:55:18,763 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-04-30 23:55:18,765 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-04-30 23:55:18,767 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-04-30 23:55:18,769 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-04-30 23:55:18,771 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-04-30 23:55:18,774 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-04-30 23:55:18,775 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-04-30 23:55:18,777 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-04-30 23:55:18,779 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-04-30 23:55:18,781 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-04-30 23:55:18,782 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-04-30 23:55:18,784 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-04-30 23:55:18,786 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-04-30 23:55:18,788 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-04-30 23:55:18,793 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-04-30 23:55:18,795 [INFO]  Dropping 0/640 rows
+2019-04-30 23:55:18,807 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-04-30 23:55:18,809 [INFO]  Dropping 0/160 rows
+2019-04-30 23:55:18,817 [INFO]  Train: 640, Test: 160
+2019-04-30 23:55:18,818 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_ANNUITY and 640 rows of training data with parameters {'input_columns': ['AMT_ANNUITY'], 'output_column': 'AMT_ANNUITY_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,829 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_APPLICATION and 640 rows of training data with parameters {'input_columns': ['AMT_APPLICATION'], 'output_column': 'AMT_APPLICATION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,835 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_CREDIT and 640 rows of training data with parameters {'input_columns': ['AMT_CREDIT'], 'output_column': 'AMT_CREDIT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,842 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_DOWN_PAYMENT and 640 rows of training data with parameters {'input_columns': ['AMT_DOWN_PAYMENT'], 'output_column': 'AMT_DOWN_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,849 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_GOODS_PRICE and 640 rows of training data with parameters {'input_columns': ['AMT_GOODS_PRICE'], 'output_column': 'AMT_GOODS_PRICE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,859 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns CNT_PAYMENT and 640 rows of training data with parameters {'input_columns': ['CNT_PAYMENT'], 'output_column': 'CNT_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,873 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_DECISION and 640 rows of training data with parameters {'input_columns': ['DAYS_DECISION'], 'output_column': 'DAYS_DECISION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,881 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_FIRST_DRAWING and 640 rows of training data with parameters {'input_columns': ['DAYS_FIRST_DRAWING'], 'output_column': 'DAYS_FIRST_DRAWING_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,888 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_FIRST_DUE and 640 rows of training data with parameters {'input_columns': ['DAYS_FIRST_DUE'], 'output_column': 'DAYS_FIRST_DUE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,899 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_LAST_DUE and 640 rows of training data with parameters {'input_columns': ['DAYS_LAST_DUE'], 'output_column': 'DAYS_LAST_DUE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,908 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_LAST_DUE_1ST_VERSION and 640 rows of training data with parameters {'input_columns': ['DAYS_LAST_DUE_1ST_VERSION'], 'output_column': 'DAYS_LAST_DUE_1ST_VERSION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,917 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_TERMINATION and 640 rows of training data with parameters {'input_columns': ['DAYS_TERMINATION'], 'output_column': 'DAYS_TERMINATION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,924 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns RATE_DOWN_PAYMENT and 640 rows of training data with parameters {'input_columns': ['RATE_DOWN_PAYMENT'], 'output_column': 'RATE_DOWN_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-04-30 23:55:18,933 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:12:52,015 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:12:52,016 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NFLAG_INSURED_ON_APPROVAL, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:12:52,018 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:12:52,020 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NFLAG_INSURED_ON_APPROVAL, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:12:52,035 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:12:52,037 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_INSURED_ON_APPROVAL:type: string
+	NFLAG_INSURED_ON_APPROVAL:ngram_range:words: (1, 3)
+	NFLAG_INSURED_ON_APPROVAL:ngram_range:chars: (1, 5)
+	NFLAG_INSURED_ON_APPROVAL:max_tokens: 32768
+	NFLAG_INSURED_ON_APPROVAL:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:12:52,041 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:12:52,043 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:12:52,050 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:12:52,050 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:12:52,051 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:12:52,051 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:12:52,062 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:12:52,062 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:12:52,065 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:12:52,065 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:12:52,067 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:12:52,067 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:12:52,071 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:12:52,071 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:12:52,074 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:12:52,074 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:12:52,076 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:12:52,076 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:12:52,079 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:12:52,079 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:12:52,081 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:12:52,081 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:12:52,082 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:12:52,082 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:12:52,087 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:12:52,087 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:12:52,089 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:12:52,089 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:12:52,090 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:12:52,090 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:12:52,092 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:12:52,092 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:12:52,093 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:12:52,093 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:12:52,095 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:12:52,095 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:12:52,097 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:12:52,097 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:12:52,101 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:12:52,101 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:12:52,102 [INFO]  Dropping 0/640 rows
+2019-05-01 00:12:52,102 [INFO]  Dropping 0/640 rows
+2019-05-01 00:12:52,112 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:12:52,112 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:12:52,114 [INFO]  Dropping 0/160 rows
+2019-05-01 00:12:52,114 [INFO]  Dropping 0/160 rows
+2019-05-01 00:12:52,121 [INFO]  Train: 640, Test: 160
+2019-05-01 00:12:52,121 [INFO]  Train: 640, Test: 160
+2019-05-01 00:12:52,122 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:12:52,122 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:01,494 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:01,494 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:01,496 [INFO]  Assuming 18 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:01,496 [INFO]  Assuming 18 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:01,498 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:01,498 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:01,499 [INFO]  Assuming 18 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:01,499 [INFO]  Assuming 18 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:01,514 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:39:01,514 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:39:01,517 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:39:01,517 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:39:01,522 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:39:01,522 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:39:01,523 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:39:01,523 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:39:01,530 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:01,530 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:01,530 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:01,531 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:01,531 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:01,531 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:01,541 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:01,541 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:01,541 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:01,543 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:01,543 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:01,543 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:01,545 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:01,545 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:01,545 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:01,548 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:01,548 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:01,548 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:01,553 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:01,553 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:01,553 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:01,556 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:01,556 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:01,556 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:01,558 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:01,558 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:01,558 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:01,561 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:01,561 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:01,561 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:01,563 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:01,563 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:01,563 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:01,565 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:01,565 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:01,565 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:01,567 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:01,567 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:01,567 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:01,569 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:01,569 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:01,569 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:01,573 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:01,573 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:01,573 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:01,575 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:01,575 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:01,575 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:01,578 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:01,578 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:01,578 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:01,580 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:01,580 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:01,580 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:01,583 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:01,583 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:01,583 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:01,585 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:01,585 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:01,585 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:01,593 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:01,593 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:01,593 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:01,594 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:01,594 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:01,594 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:01,600 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:01,600 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:01,600 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:01,602 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:01,602 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:01,602 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:58,846 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:58,846 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:58,846 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:58,847 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:58,847 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:58,847 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:58,851 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:58,851 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:58,851 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:39:58,853 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:58,853 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:58,853 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:39:58,870 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:39:58,870 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:39:58,870 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:39:58,872 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:39:58,872 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:39:58,872 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:39:58,877 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:39:58,877 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:39:58,877 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:39:58,878 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:39:58,878 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:39:58,878 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:39:58,885 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:58,885 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:58,885 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:58,885 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:39:58,887 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:58,887 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:58,887 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:58,887 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:39:58,897 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:58,897 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:58,897 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:58,897 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:39:58,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:58,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:58,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:58,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:39:58,900 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:58,900 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:58,900 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:58,900 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:39:58,902 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:58,902 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:58,902 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:58,902 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:39:58,905 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:58,905 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:58,905 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:58,905 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:39:58,908 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:58,908 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:58,908 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:58,908 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:39:58,912 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:58,912 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:58,912 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:58,912 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:39:58,915 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:58,915 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:58,915 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:58,915 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:39:58,919 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:58,919 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:58,919 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:58,919 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:39:58,922 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:58,922 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:58,922 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:58,922 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:39:58,924 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:58,924 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:58,924 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:58,924 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:39:58,926 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:58,926 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:58,926 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:58,926 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:39:58,929 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:58,929 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:58,929 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:58,929 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:39:58,931 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:58,931 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:58,931 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:58,931 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:39:58,933 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:58,933 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:58,933 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:58,933 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:39:58,937 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:58,937 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:58,937 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:58,937 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:39:58,940 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,940 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,940 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,940 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,942 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:58,942 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:58,942 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:58,942 [INFO]  Dropping 0/640 rows
+2019-05-01 00:39:58,950 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,950 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,950 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,950 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:39:58,952 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:58,952 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:58,952 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:58,952 [INFO]  Dropping 0/160 rows
+2019-05-01 00:39:58,959 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:58,959 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:58,959 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:58,959 [INFO]  Train: 640, Test: 160
+2019-05-01 00:39:58,960 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:58,960 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:58,960 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:39:58,960 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:42:01,167 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,167 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,167 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,167 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,180 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,180 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,180 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,180 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,182 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,182 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,182 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,182 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:42:01,184 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,184 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,184 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,184 [INFO]  Assuming 19 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, HOUR_APPR_PROCESS_START, SELLERPLACE_AREA, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO, NFLAG_LAST_APPL_IN_DAY
+2019-05-01 00:42:01,200 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:42:01,200 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:42:01,200 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:42:01,200 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:42:01,203 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:42:01,203 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:42:01,203 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:42:01,203 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	HOUR_APPR_PROCESS_START:type: string
+	HOUR_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	HOUR_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	HOUR_APPR_PROCESS_START:max_tokens: 32768
+	HOUR_APPR_PROCESS_START:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	NFLAG_LAST_APPL_IN_DAY:type: string
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:words: (1, 3)
+	NFLAG_LAST_APPL_IN_DAY:ngram_range:chars: (1, 5)
+	NFLAG_LAST_APPL_IN_DAY:max_tokens: 32768
+	NFLAG_LAST_APPL_IN_DAY:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	SELLERPLACE_AREA:type: string
+	SELLERPLACE_AREA:ngram_range:words: (1, 3)
+	SELLERPLACE_AREA:ngram_range:chars: (1, 5)
+	SELLERPLACE_AREA:max_tokens: 32768
+	SELLERPLACE_AREA:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:42:01,207 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:42:01,207 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:42:01,207 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:42:01,207 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:42:01,209 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:42:01,209 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:42:01,209 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:42:01,209 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:42:01,219 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:42:01,219 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:42:01,219 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:42:01,219 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:42:01,219 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:42:01,221 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:42:01,221 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:42:01,221 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:42:01,221 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:42:01,221 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:42:01,234 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:42:01,234 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:42:01,234 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:42:01,234 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:42:01,234 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:42:01,236 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:42:01,236 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:42:01,236 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:42:01,236 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:42:01,236 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:42:01,237 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:42:01,237 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:42:01,237 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:42:01,237 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:42:01,237 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:42:01,239 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:42:01,239 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:42:01,239 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:42:01,239 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:42:01,239 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:42:01,241 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:42:01,241 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:42:01,241 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:42:01,241 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:42:01,241 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:42:01,243 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:42:01,243 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:42:01,243 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:42:01,243 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:42:01,243 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:42:01,245 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:42:01,245 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:42:01,245 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:42:01,245 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:42:01,245 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:42:01,247 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:42:01,247 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:42:01,247 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:42:01,247 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:42:01,247 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:42:01,249 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:42:01,249 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:42:01,249 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:42:01,249 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:42:01,249 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:42:01,250 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:42:01,250 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:42:01,250 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:42:01,250 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:42:01,250 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:42:01,252 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:42:01,252 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:42:01,252 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:42:01,252 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:42:01,252 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:42:01,255 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:42:01,255 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:42:01,255 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:42:01,255 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:42:01,255 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:42:01,256 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:42:01,256 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:42:01,256 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:42:01,256 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:42:01,256 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:42:01,258 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:42:01,258 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:42:01,258 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:42:01,258 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:42:01,258 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:42:01,260 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:42:01,260 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:42:01,260 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:42:01,260 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:42:01,260 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:42:01,263 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:42:01,263 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:42:01,263 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:42:01,263 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:42:01,263 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:42:01,271 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,271 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,271 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,271 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,271 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,274 [INFO]  Dropping 0/640 rows
+2019-05-01 00:42:01,274 [INFO]  Dropping 0/640 rows
+2019-05-01 00:42:01,274 [INFO]  Dropping 0/640 rows
+2019-05-01 00:42:01,274 [INFO]  Dropping 0/640 rows
+2019-05-01 00:42:01,274 [INFO]  Dropping 0/640 rows
+2019-05-01 00:42:01,285 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,285 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,285 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,285 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,285 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:42:01,287 [INFO]  Dropping 0/160 rows
+2019-05-01 00:42:01,287 [INFO]  Dropping 0/160 rows
+2019-05-01 00:42:01,287 [INFO]  Dropping 0/160 rows
+2019-05-01 00:42:01,287 [INFO]  Dropping 0/160 rows
+2019-05-01 00:42:01,287 [INFO]  Dropping 0/160 rows
+2019-05-01 00:42:01,293 [INFO]  Train: 640, Test: 160
+2019-05-01 00:42:01,293 [INFO]  Train: 640, Test: 160
+2019-05-01 00:42:01,293 [INFO]  Train: 640, Test: 160
+2019-05-01 00:42:01,293 [INFO]  Train: 640, Test: 160
+2019-05-01 00:42:01,293 [INFO]  Train: 640, Test: 160
+2019-05-01 00:42:01,294 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:42:01,294 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:42:01,294 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:42:01,294 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:42:01,294 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:45:54,813 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,813 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,813 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,813 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,813 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,815 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,815 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,815 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,815 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,815 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,817 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,817 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,817 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,817 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,817 [INFO]  Assuming 0 numeric input columns: 
+2019-05-01 00:45:54,819 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,819 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,819 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,819 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,819 [INFO]  Assuming 16 string input columns: CHANNEL_TYPE, NAME_CONTRACT_TYPE, FLAG_LAST_APPL_PER_CONTRACT, PRODUCT_COMBINATION, WEEKDAY_APPR_PROCESS_START, CODE_REJECT_REASON, NAME_PAYMENT_TYPE, NAME_PRODUCT_TYPE, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_CLIENT_TYPE, NAME_YIELD_GROUP, NAME_GOODS_CATEGORY, NAME_TYPE_SUITE, NAME_SELLER_INDUSTRY, NAME_PORTFOLIO
+2019-05-01 00:45:54,832 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:45:54,832 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:45:54,832 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:45:54,832 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:45:54,832 [INFO]  Training starts for 1hyperparameter configurations.
+2019-05-01 00:45:54,835 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:45:54,835 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:45:54,835 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:45:54,835 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:45:54,835 [INFO]  Fitting hpo iteration 0 with parameters
+	global:batch_size: 16
+	global:learning_rate: 0.004
+	global:weight_decay: 0
+	global:num_epochs: 25
+	global:patience: 3
+	global:final_fc_hidden_units: []
+	CHANNEL_TYPE:type: string
+	CHANNEL_TYPE:ngram_range:words: (1, 3)
+	CHANNEL_TYPE:ngram_range:chars: (1, 5)
+	CHANNEL_TYPE:max_tokens: 32768
+	CHANNEL_TYPE:tokens: ['chars']
+	CODE_REJECT_REASON:type: string
+	CODE_REJECT_REASON:ngram_range:words: (1, 3)
+	CODE_REJECT_REASON:ngram_range:chars: (1, 5)
+	CODE_REJECT_REASON:max_tokens: 32768
+	CODE_REJECT_REASON:tokens: ['chars']
+	FLAG_LAST_APPL_PER_CONTRACT:type: string
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:words: (1, 3)
+	FLAG_LAST_APPL_PER_CONTRACT:ngram_range:chars: (1, 5)
+	FLAG_LAST_APPL_PER_CONTRACT:max_tokens: 32768
+	FLAG_LAST_APPL_PER_CONTRACT:tokens: ['chars']
+	NAME_CASH_LOAN_PURPOSE:type: string
+	NAME_CASH_LOAN_PURPOSE:ngram_range:words: (1, 3)
+	NAME_CASH_LOAN_PURPOSE:ngram_range:chars: (1, 5)
+	NAME_CASH_LOAN_PURPOSE:max_tokens: 32768
+	NAME_CASH_LOAN_PURPOSE:tokens: ['chars']
+	NAME_CLIENT_TYPE:type: string
+	NAME_CLIENT_TYPE:ngram_range:words: (1, 3)
+	NAME_CLIENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CLIENT_TYPE:max_tokens: 32768
+	NAME_CLIENT_TYPE:tokens: ['chars']
+	NAME_CONTRACT_STATUS:type: string
+	NAME_CONTRACT_STATUS:ngram_range:words: (1, 3)
+	NAME_CONTRACT_STATUS:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_STATUS:max_tokens: 32768
+	NAME_CONTRACT_STATUS:tokens: ['chars']
+	NAME_CONTRACT_TYPE:type: string
+	NAME_CONTRACT_TYPE:ngram_range:words: (1, 3)
+	NAME_CONTRACT_TYPE:ngram_range:chars: (1, 5)
+	NAME_CONTRACT_TYPE:max_tokens: 32768
+	NAME_CONTRACT_TYPE:tokens: ['chars']
+	NAME_GOODS_CATEGORY:type: string
+	NAME_GOODS_CATEGORY:ngram_range:words: (1, 3)
+	NAME_GOODS_CATEGORY:ngram_range:chars: (1, 5)
+	NAME_GOODS_CATEGORY:max_tokens: 32768
+	NAME_GOODS_CATEGORY:tokens: ['chars']
+	NAME_PAYMENT_TYPE:type: string
+	NAME_PAYMENT_TYPE:ngram_range:words: (1, 3)
+	NAME_PAYMENT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PAYMENT_TYPE:max_tokens: 32768
+	NAME_PAYMENT_TYPE:tokens: ['chars']
+	NAME_PORTFOLIO:type: string
+	NAME_PORTFOLIO:ngram_range:words: (1, 3)
+	NAME_PORTFOLIO:ngram_range:chars: (1, 5)
+	NAME_PORTFOLIO:max_tokens: 32768
+	NAME_PORTFOLIO:tokens: ['chars']
+	NAME_PRODUCT_TYPE:type: string
+	NAME_PRODUCT_TYPE:ngram_range:words: (1, 3)
+	NAME_PRODUCT_TYPE:ngram_range:chars: (1, 5)
+	NAME_PRODUCT_TYPE:max_tokens: 32768
+	NAME_PRODUCT_TYPE:tokens: ['chars']
+	NAME_SELLER_INDUSTRY:type: string
+	NAME_SELLER_INDUSTRY:ngram_range:words: (1, 3)
+	NAME_SELLER_INDUSTRY:ngram_range:chars: (1, 5)
+	NAME_SELLER_INDUSTRY:max_tokens: 32768
+	NAME_SELLER_INDUSTRY:tokens: ['chars']
+	NAME_TYPE_SUITE:type: string
+	NAME_TYPE_SUITE:ngram_range:words: (1, 3)
+	NAME_TYPE_SUITE:ngram_range:chars: (1, 5)
+	NAME_TYPE_SUITE:max_tokens: 32768
+	NAME_TYPE_SUITE:tokens: ['chars']
+	NAME_YIELD_GROUP:type: string
+	NAME_YIELD_GROUP:ngram_range:words: (1, 3)
+	NAME_YIELD_GROUP:ngram_range:chars: (1, 5)
+	NAME_YIELD_GROUP:max_tokens: 32768
+	NAME_YIELD_GROUP:tokens: ['chars']
+	PRODUCT_COMBINATION:type: string
+	PRODUCT_COMBINATION:ngram_range:words: (1, 3)
+	PRODUCT_COMBINATION:ngram_range:chars: (1, 5)
+	PRODUCT_COMBINATION:max_tokens: 32768
+	PRODUCT_COMBINATION:tokens: ['chars']
+	WEEKDAY_APPR_PROCESS_START:type: string
+	WEEKDAY_APPR_PROCESS_START:ngram_range:words: (1, 3)
+	WEEKDAY_APPR_PROCESS_START:ngram_range:chars: (1, 5)
+	WEEKDAY_APPR_PROCESS_START:max_tokens: 32768
+	WEEKDAY_APPR_PROCESS_START:tokens: ['chars']
+2019-05-01 00:45:54,839 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:45:54,839 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:45:54,839 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:45:54,839 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:45:54,839 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 00:45:54,841 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:45:54,841 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:45:54,841 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:45:54,841 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:45:54,841 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 00:45:54,847 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:45:54,847 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:45:54,847 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:45:54,847 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:45:54,847 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:45:54,847 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 00:45:54,849 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:45:54,849 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:45:54,849 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:45:54,849 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:45:54,849 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:45:54,849 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 00:45:54,858 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:45:54,858 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:45:54,858 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:45:54,858 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:45:54,858 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:45:54,858 [INFO]  17 most often encountered discrete values:                      [POS household with interest, POS mobile with interest, POS household without interest, POS industry with interest, Cash Street: high, ..., Cash Street: middle, Card X-Sell, POS others without interest, Cash, Card Street]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 00:45:54,860 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:45:54,860 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:45:54,860 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:45:54,860 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:45:54,860 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:45:54,860 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 94 occurrences of value POS household without interest
+2019-05-01 00:45:54,863 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:45:54,863 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:45:54,863 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:45:54,863 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:45:54,863 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:45:54,863 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 85 occurrences of value POS industry with interest
+2019-05-01 00:45:54,865 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:45:54,865 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:45:54,865 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:45:54,865 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:45:54,865 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:45:54,865 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 18 occurrences of value Cash Street: high
+2019-05-01 00:45:54,867 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:45:54,867 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:45:54,867 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:45:54,867 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:45:54,867 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:45:54,867 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 12 occurrences of value POS other with interest
+2019-05-01 00:45:54,870 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:45:54,870 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:45:54,870 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:45:54,870 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:45:54,870 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:45:54,870 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS industry without interest
+2019-05-01 00:45:54,874 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:45:54,874 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:45:54,874 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:45:54,874 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:45:54,874 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:45:54,874 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 8 occurrences of value Cash X-Sell: high
+2019-05-01 00:45:54,877 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:45:54,877 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:45:54,877 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:45:54,877 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:45:54,877 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:45:54,877 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value POS mobile without interest
+2019-05-01 00:45:54,882 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:45:54,882 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:45:54,882 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:45:54,882 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:45:54,882 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:45:54,882 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: middle
+2019-05-01 00:45:54,885 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:45:54,885 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:45:54,885 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:45:54,885 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:45:54,885 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:45:54,885 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash Street: low
+2019-05-01 00:45:54,888 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:45:54,888 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:45:54,888 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:45:54,888 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:45:54,888 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:45:54,888 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash X-Sell: low
+2019-05-01 00:45:54,891 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:45:54,891 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:45:54,891 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:45:54,891 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:45:54,891 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:45:54,891 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 1 occurrences of value Cash Street: middle
+2019-05-01 00:45:54,893 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:45:54,893 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:45:54,893 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:45:54,893 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:45:54,893 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:45:54,893 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card X-Sell
+2019-05-01 00:45:54,895 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:45:54,895 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:45:54,895 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:45:54,895 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:45:54,895 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:45:54,895 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value POS others without interest
+2019-05-01 00:45:54,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:45:54,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:45:54,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:45:54,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:45:54,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:45:54,899 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Cash
+2019-05-01 00:45:54,901 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:45:54,901 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:45:54,901 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:45:54,901 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:45:54,901 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:45:54,901 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 0 occurrences of value Card Street
+2019-05-01 00:45:54,906 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,906 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,906 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,906 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,906 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,906 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,908 [INFO]  Dropping 0/640 rows
+2019-05-01 00:45:54,908 [INFO]  Dropping 0/640 rows
+2019-05-01 00:45:54,908 [INFO]  Dropping 0/640 rows
+2019-05-01 00:45:54,908 [INFO]  Dropping 0/640 rows
+2019-05-01 00:45:54,908 [INFO]  Dropping 0/640 rows
+2019-05-01 00:45:54,908 [INFO]  Dropping 0/640 rows
+2019-05-01 00:45:54,915 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,915 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,915 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,915 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,915 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,915 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 00:45:54,917 [INFO]  Dropping 0/160 rows
+2019-05-01 00:45:54,917 [INFO]  Dropping 0/160 rows
+2019-05-01 00:45:54,917 [INFO]  Dropping 0/160 rows
+2019-05-01 00:45:54,917 [INFO]  Dropping 0/160 rows
+2019-05-01 00:45:54,917 [INFO]  Dropping 0/160 rows
+2019-05-01 00:45:54,917 [INFO]  Dropping 0/160 rows
+2019-05-01 00:45:54,922 [INFO]  Train: 640, Test: 160
+2019-05-01 00:45:54,922 [INFO]  Train: 640, Test: 160
+2019-05-01 00:45:54,922 [INFO]  Train: 640, Test: 160
+2019-05-01 00:45:54,922 [INFO]  Train: 640, Test: 160
+2019-05-01 00:45:54,922 [INFO]  Train: 640, Test: 160
+2019-05-01 00:45:54,922 [INFO]  Train: 640, Test: 160
+2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
