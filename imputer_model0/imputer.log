@@ -8764,3 +8764,31 @@ Categories (12, object): [Cash Street: high, Cash Street: middle, Cash X-Sell: h
 2019-05-01 19:52:47,990 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
 2019-05-01 19:52:47,990 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
 2019-05-01 19:52:47,990 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
+2019-05-01 20:27:20,330 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:20,330 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:20,330 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:20,330 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:20,331 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:20,331 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:20,331 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:20,331 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:20,333 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:20,333 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:20,333 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:20,333 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:20,334 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 20:27:20,334 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 20:27:20,334 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 20:27:20,334 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 20:27:22,308 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:22,308 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:22,308 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 20:27:22,309 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:22,309 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:22,309 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 20:27:22,310 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:22,310 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:22,310 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 20:27:22,311 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 20:27:22,311 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 20:27:22,311 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
