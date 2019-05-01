@@ -1,0 +1,14 @@
+2019-05-01 02:26:32,449 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 02:26:32,475 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 7200 rows                             of training data
+2019-05-01 02:26:32,487 [INFO]  17 most often encountered discrete values:                      [Cash, POS household with interest, POS mobile with interest, Cash X-Sell: middle, Cash X-Sell: low, ..., Cash Street: middle, POS other with interest, POS mobile without interest, POS industry without interest, POS others without interest]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 02:26:32,490 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 60 occurrences of value POS industry without interest
+2019-05-01 02:26:32,491 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS others without interest
+2019-05-01 02:26:32,496 [INFO]  Detected 6 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 02:26:32,498 [INFO]  Dropping 6/7200 rows
+2019-05-01 02:26:32,516 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 02:26:32,518 [INFO]  Dropping 0/800 rows
+2019-05-01 02:26:32,529 [INFO]  Train: 7194, Test: 800
+2019-05-01 02:26:32,530 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_ANNUITY, AMT_APPLICATION, AMT_CREDIT, AMT_DOWN_PAYMENT, AMT_GOODS_PRICE, CNT_PAYMENT, DAYS_DECISION, DAYS_FIRST_DRAWING, DAYS_FIRST_DUE, DAYS_LAST_DUE, DAYS_LAST_DUE_1ST_VERSION, DAYS_TERMINATION, RATE_DOWN_PAYMENT and 7194 rows of training data with parameters {'input_columns': ['AMT_ANNUITY', 'AMT_APPLICATION', 'AMT_CREDIT', 'AMT_DOWN_PAYMENT', 'AMT_GOODS_PRICE', 'CNT_PAYMENT', 'DAYS_DECISION', 'DAYS_FIRST_DRAWING', 'DAYS_FIRST_DUE', 'DAYS_LAST_DUE', 'DAYS_LAST_DUE_1ST_VERSION', 'DAYS_TERMINATION', 'RATE_DOWN_PAYMENT'], 'output_column': 'numerical_features-z6Y1t9EwL5', 'output_dim': 13, 'normalize': True, 'scaler': None}
+2019-05-01 02:26:33,234 [INFO]  Building Train Iterator with 7194 elements

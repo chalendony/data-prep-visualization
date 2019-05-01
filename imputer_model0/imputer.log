@@ -2107,3 +2107,102 @@ Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ...
 2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
 2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
 2019-05-01 00:45:54,924 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 01:02:50,698 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 01:02:50,698 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 01:02:50,698 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 01:02:50,698 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 01:02:50,698 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 01:02:50,698 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 01:02:50,699 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 01:02:50,699 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 01:02:50,699 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 01:02:50,699 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 01:02:50,699 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 01:02:50,699 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 01:02:50,701 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 01:02:50,701 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 01:02:50,701 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 01:02:50,701 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 01:02:50,701 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 01:02:50,701 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 01:02:50,702 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 01:02:50,702 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 01:02:50,702 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 01:02:50,702 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 01:02:50,702 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 01:02:50,702 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 01:27:09,969 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 01:27:09,970 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-01 01:27:09,977 [INFO]  17 most often encountered discrete values:                      [Cash, POS mobile with interest, POS household with interest, Cash X-Sell: middle, Cash X-Sell: low, ..., Cash Street: middle, POS other with interest, POS mobile without interest, POS industry without interest, POS others without interest]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ...,
+                          POS mobile with interest, POS mobile without interest, POS other with interest,
+                          POS others without interest]
+2019-05-01 01:27:09,978 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 88 occurrences of value POS mobile with interest
+2019-05-01 01:27:09,978 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 81 occurrences of value POS household with interest
+2019-05-01 01:27:09,978 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 62 occurrences of value Cash X-Sell: middle
+2019-05-01 01:27:09,978 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 59 occurrences of value Cash X-Sell: low
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 50 occurrences of value Card Street
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 41 occurrences of value POS industry with interest
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 33 occurrences of value POS household without interest
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 33 occurrences of value Card X-Sell
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 23 occurrences of value Cash Street: high
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 22 occurrences of value Cash X-Sell: high
+2019-05-01 01:27:09,979 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 14 occurrences of value Cash Street: low
+2019-05-01 01:27:09,980 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 11 occurrences of value Cash Street: middle
+2019-05-01 01:27:09,980 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 7 occurrences of value POS other with interest
+2019-05-01 01:27:09,980 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 6 occurrences of value POS mobile without interest
+2019-05-01 01:27:09,980 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value POS industry without interest
+2019-05-01 01:27:09,980 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value POS others without interest
+2019-05-01 01:27:09,982 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 01:27:09,982 [INFO]  Dropping 0/640 rows
+2019-05-01 01:27:09,986 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 01:27:09,986 [INFO]  Dropping 0/160 rows
+2019-05-01 01:27:09,989 [INFO]  Train: 640, Test: 160
+2019-05-01 01:27:09,989 [INFO]  Building Train Iterator with 640 elements
+2019-05-01 02:25:56,514 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 02:25:56,517 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 6400 rows                             of training data
+2019-05-01 02:25:56,526 [INFO]  17 most often encountered discrete values:                      [Cash, POS household with interest, POS mobile with interest, Cash X-Sell: middle, Cash X-Sell: low, ..., Cash Street: middle, POS other with interest, POS mobile without interest, POS industry without interest, POS others without interest]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 02:25:56,527 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 97 occurrences of value POS other with interest
+2019-05-01 02:25:56,529 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 90 occurrences of value POS mobile without interest
+2019-05-01 02:25:56,531 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 54 occurrences of value POS industry without interest
+2019-05-01 02:25:56,532 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS others without interest
+2019-05-01 02:25:56,536 [INFO]  Detected 6 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 02:25:56,539 [INFO]  Dropping 6/6400 rows
+2019-05-01 02:25:56,546 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 02:25:56,548 [INFO]  Dropping 0/1600 rows
+2019-05-01 02:25:56,555 [INFO]  Train: 6394, Test: 1600
+2019-05-01 02:25:56,555 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_ANNUITY and 6394 rows of training data with parameters {'input_columns': ['AMT_ANNUITY'], 'output_column': 'AMT_ANNUITY_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,629 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_APPLICATION and 6394 rows of training data with parameters {'input_columns': ['AMT_APPLICATION'], 'output_column': 'AMT_APPLICATION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,688 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_CREDIT and 6394 rows of training data with parameters {'input_columns': ['AMT_CREDIT'], 'output_column': 'AMT_CREDIT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,743 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_DOWN_PAYMENT and 6394 rows of training data with parameters {'input_columns': ['AMT_DOWN_PAYMENT'], 'output_column': 'AMT_DOWN_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,797 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_GOODS_PRICE and 6394 rows of training data with parameters {'input_columns': ['AMT_GOODS_PRICE'], 'output_column': 'AMT_GOODS_PRICE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,853 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns CNT_PAYMENT and 6394 rows of training data with parameters {'input_columns': ['CNT_PAYMENT'], 'output_column': 'CNT_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,908 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_DECISION and 6394 rows of training data with parameters {'input_columns': ['DAYS_DECISION'], 'output_column': 'DAYS_DECISION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:56,962 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_FIRST_DRAWING and 6394 rows of training data with parameters {'input_columns': ['DAYS_FIRST_DRAWING'], 'output_column': 'DAYS_FIRST_DRAWING_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:57,018 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_FIRST_DUE and 6394 rows of training data with parameters {'input_columns': ['DAYS_FIRST_DUE'], 'output_column': 'DAYS_FIRST_DUE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:57,077 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_LAST_DUE and 6394 rows of training data with parameters {'input_columns': ['DAYS_LAST_DUE'], 'output_column': 'DAYS_LAST_DUE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:57,137 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_LAST_DUE_1ST_VERSION and 6394 rows of training data with parameters {'input_columns': ['DAYS_LAST_DUE_1ST_VERSION'], 'output_column': 'DAYS_LAST_DUE_1ST_VERSION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:57,194 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_TERMINATION and 6394 rows of training data with parameters {'input_columns': ['DAYS_TERMINATION'], 'output_column': 'DAYS_TERMINATION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:57,252 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns RATE_DOWN_PAYMENT and 6394 rows of training data with parameters {'input_columns': ['RATE_DOWN_PAYMENT'], 'output_column': 'RATE_DOWN_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-01 02:25:57,309 [INFO]  Building Train Iterator with 6394 elements
+2019-05-01 02:26:32,440 [INFO]  Assuming 13 numeric input columns: AMT_ANNUITY, AMT_APPLICATION, AMT_CREDIT, AMT_DOWN_PAYMENT, AMT_GOODS_PRICE, CNT_PAYMENT, DAYS_DECISION, DAYS_FIRST_DRAWING, DAYS_FIRST_DUE, DAYS_LAST_DUE, DAYS_LAST_DUE_1ST_VERSION, DAYS_TERMINATION, RATE_DOWN_PAYMENT
+2019-05-01 02:26:32,442 [INFO]  Assuming 20 string input columns: HOUR_APPR_PROCESS_START, NAME_TYPE_SUITE, FLAG_LAST_APPL_PER_CONTRACT, WEEKDAY_APPR_PROCESS_START, NAME_PRODUCT_TYPE, NAME_YIELD_GROUP, NFLAG_LAST_APPL_IN_DAY, NAME_SELLER_INDUSTRY, NAME_GOODS_CATEGORY, NAME_CASH_LOAN_PURPOSE, NAME_CONTRACT_STATUS, NAME_PORTFOLIO, PRODUCT_COMBINATION, SELLERPLACE_AREA, CHANNEL_TYPE, NFLAG_INSURED_ON_APPROVAL, CODE_REJECT_REASON, NAME_CONTRACT_TYPE, NAME_CLIENT_TYPE, NAME_PAYMENT_TYPE
+2019-05-01 02:26:32,445 [INFO]  No output column name provided for ColumnEncoder using PRODUCT_COMBINATION
+2019-05-01 02:26:32,446 [INFO]  Assuming categorical output column: PRODUCT_COMBINATION
+2019-05-01 02:26:32,449 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-01 02:26:32,475 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 7200 rows                             of training data
+2019-05-01 02:26:32,487 [INFO]  17 most often encountered discrete values:                      [Cash, POS household with interest, POS mobile with interest, Cash X-Sell: middle, Cash X-Sell: low, ..., Cash Street: middle, POS other with interest, POS mobile without interest, POS industry without interest, POS others without interest]
+Length: 17
+Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ..., POS mobile with interest, POS mobile without interest, POS other with interest, POS others without interest]
+2019-05-01 02:26:32,490 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 60 occurrences of value POS industry without interest
+2019-05-01 02:26:32,491 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 9 occurrences of value POS others without interest
+2019-05-01 02:26:32,496 [INFO]  Detected 6 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 02:26:32,498 [INFO]  Dropping 6/7200 rows
+2019-05-01 02:26:32,516 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-01 02:26:32,518 [INFO]  Dropping 0/800 rows
+2019-05-01 02:26:32,529 [INFO]  Train: 7194, Test: 800
+2019-05-01 02:26:32,530 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_ANNUITY, AMT_APPLICATION, AMT_CREDIT, AMT_DOWN_PAYMENT, AMT_GOODS_PRICE, CNT_PAYMENT, DAYS_DECISION, DAYS_FIRST_DRAWING, DAYS_FIRST_DUE, DAYS_LAST_DUE, DAYS_LAST_DUE_1ST_VERSION, DAYS_TERMINATION, RATE_DOWN_PAYMENT and 7194 rows of training data with parameters {'input_columns': ['AMT_ANNUITY', 'AMT_APPLICATION', 'AMT_CREDIT', 'AMT_DOWN_PAYMENT', 'AMT_GOODS_PRICE', 'CNT_PAYMENT', 'DAYS_DECISION', 'DAYS_FIRST_DRAWING', 'DAYS_FIRST_DUE', 'DAYS_LAST_DUE', 'DAYS_LAST_DUE_1ST_VERSION', 'DAYS_TERMINATION', 'RATE_DOWN_PAYMENT'], 'output_column': 'numerical_features-z6Y1t9EwL5', 'output_dim': 13, 'normalize': True, 'scaler': None}
+2019-05-01 02:26:33,234 [INFO]  Building Train Iterator with 7194 elements
