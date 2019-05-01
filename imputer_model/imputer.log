@@ -1561,3 +1561,1083 @@ Categories (17, object): [Card Street, Card X-Sell, Cash, Cash Street: high, ...
 2019-05-01 03:32:09,707 [INFO]  Epoch[2] Validation-PRODUCT_COMBINATION-accuracy=0.992500
 2019-05-01 03:32:09,707 [INFO]  Epoch[2] Validation-PRODUCT_COMBINATION-accuracy=0.992500
 2019-05-01 03:32:09,707 [INFO]  Epoch[2] Validation-PRODUCT_COMBINATION-accuracy=0.992500
+2019-05-01 03:32:49,083 [INFO]  Epoch[3] Batch [0-200]	Speed: 81.68 samples/sec	cross-entropy=0.010141	PRODUCT_COMBINATION-accuracy=0.999378
+2019-05-01 03:32:49,083 [INFO]  Epoch[3] Batch [0-200]	Speed: 81.68 samples/sec	cross-entropy=0.010141	PRODUCT_COMBINATION-accuracy=0.999378
+2019-05-01 03:32:49,083 [INFO]  Epoch[3] Batch [0-200]	Speed: 81.68 samples/sec	cross-entropy=0.010141	PRODUCT_COMBINATION-accuracy=0.999378
+2019-05-01 03:33:28,407 [INFO]  Epoch[3] Train-cross-entropy=0.009940
+2019-05-01 03:33:28,407 [INFO]  Epoch[3] Train-cross-entropy=0.009940
+2019-05-01 03:33:28,407 [INFO]  Epoch[3] Train-cross-entropy=0.009940
+2019-05-01 03:33:28,409 [INFO]  Epoch[3] Train-PRODUCT_COMBINATION-accuracy=0.999062
+2019-05-01 03:33:28,409 [INFO]  Epoch[3] Train-PRODUCT_COMBINATION-accuracy=0.999062
+2019-05-01 03:33:28,409 [INFO]  Epoch[3] Train-PRODUCT_COMBINATION-accuracy=0.999062
+2019-05-01 03:33:28,411 [INFO]  Epoch[3] Time cost=78.703
+2019-05-01 03:33:28,411 [INFO]  Epoch[3] Time cost=78.703
+2019-05-01 03:33:28,411 [INFO]  Epoch[3] Time cost=78.703
+2019-05-01 03:33:28,658 [INFO]  Saved checkpoint to "imputer_model0/model-0003.params"
+2019-05-01 03:33:28,658 [INFO]  Saved checkpoint to "imputer_model0/model-0003.params"
+2019-05-01 03:33:28,658 [INFO]  Saved checkpoint to "imputer_model0/model-0003.params"
+2019-05-01 03:33:40,804 [INFO]  Epoch[3] Validation-cross-entropy=0.016263
+2019-05-01 03:33:40,804 [INFO]  Epoch[3] Validation-cross-entropy=0.016263
+2019-05-01 03:33:40,804 [INFO]  Epoch[3] Validation-cross-entropy=0.016263
+2019-05-01 03:33:40,806 [INFO]  Epoch[3] Validation-PRODUCT_COMBINATION-accuracy=0.998125
+2019-05-01 03:33:40,806 [INFO]  Epoch[3] Validation-PRODUCT_COMBINATION-accuracy=0.998125
+2019-05-01 03:33:40,806 [INFO]  Epoch[3] Validation-PRODUCT_COMBINATION-accuracy=0.998125
+2019-05-01 03:34:19,925 [INFO]  Epoch[4] Batch [0-200]	Speed: 82.30 samples/sec	cross-entropy=0.006495	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:34:19,925 [INFO]  Epoch[4] Batch [0-200]	Speed: 82.30 samples/sec	cross-entropy=0.006495	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:34:19,925 [INFO]  Epoch[4] Batch [0-200]	Speed: 82.30 samples/sec	cross-entropy=0.006495	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:34:58,442 [INFO]  Epoch[4] Train-cross-entropy=0.006293
+2019-05-01 03:34:58,442 [INFO]  Epoch[4] Train-cross-entropy=0.006293
+2019-05-01 03:34:58,442 [INFO]  Epoch[4] Train-cross-entropy=0.006293
+2019-05-01 03:34:58,443 [INFO]  Epoch[4] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:34:58,443 [INFO]  Epoch[4] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:34:58,443 [INFO]  Epoch[4] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:34:58,444 [INFO]  Epoch[4] Time cost=77.636
+2019-05-01 03:34:58,444 [INFO]  Epoch[4] Time cost=77.636
+2019-05-01 03:34:58,444 [INFO]  Epoch[4] Time cost=77.636
+2019-05-01 03:34:58,723 [INFO]  Saved checkpoint to "imputer_model0/model-0004.params"
+2019-05-01 03:34:58,723 [INFO]  Saved checkpoint to "imputer_model0/model-0004.params"
+2019-05-01 03:34:58,723 [INFO]  Saved checkpoint to "imputer_model0/model-0004.params"
+2019-05-01 03:35:10,729 [INFO]  Epoch[4] Validation-cross-entropy=0.012533
+2019-05-01 03:35:10,729 [INFO]  Epoch[4] Validation-cross-entropy=0.012533
+2019-05-01 03:35:10,729 [INFO]  Epoch[4] Validation-cross-entropy=0.012533
+2019-05-01 03:35:10,730 [INFO]  Epoch[4] Validation-PRODUCT_COMBINATION-accuracy=0.998125
+2019-05-01 03:35:10,730 [INFO]  Epoch[4] Validation-PRODUCT_COMBINATION-accuracy=0.998125
+2019-05-01 03:35:10,730 [INFO]  Epoch[4] Validation-PRODUCT_COMBINATION-accuracy=0.998125
+2019-05-01 03:35:49,346 [INFO]  Epoch[5] Batch [0-200]	Speed: 83.30 samples/sec	cross-entropy=0.004433	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:35:49,346 [INFO]  Epoch[5] Batch [0-200]	Speed: 83.30 samples/sec	cross-entropy=0.004433	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:35:49,346 [INFO]  Epoch[5] Batch [0-200]	Speed: 83.30 samples/sec	cross-entropy=0.004433	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:36:27,619 [INFO]  Epoch[5] Train-cross-entropy=0.004330
+2019-05-01 03:36:27,619 [INFO]  Epoch[5] Train-cross-entropy=0.004330
+2019-05-01 03:36:27,619 [INFO]  Epoch[5] Train-cross-entropy=0.004330
+2019-05-01 03:36:27,620 [INFO]  Epoch[5] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:36:27,620 [INFO]  Epoch[5] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:36:27,620 [INFO]  Epoch[5] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:36:27,621 [INFO]  Epoch[5] Time cost=76.890
+2019-05-01 03:36:27,621 [INFO]  Epoch[5] Time cost=76.890
+2019-05-01 03:36:27,621 [INFO]  Epoch[5] Time cost=76.890
+2019-05-01 03:36:27,858 [INFO]  Saved checkpoint to "imputer_model0/model-0005.params"
+2019-05-01 03:36:27,858 [INFO]  Saved checkpoint to "imputer_model0/model-0005.params"
+2019-05-01 03:36:27,858 [INFO]  Saved checkpoint to "imputer_model0/model-0005.params"
+2019-05-01 03:36:39,962 [INFO]  Epoch[5] Validation-cross-entropy=0.010345
+2019-05-01 03:36:39,962 [INFO]  Epoch[5] Validation-cross-entropy=0.010345
+2019-05-01 03:36:39,962 [INFO]  Epoch[5] Validation-cross-entropy=0.010345
+2019-05-01 03:36:39,963 [INFO]  Epoch[5] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:36:39,963 [INFO]  Epoch[5] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:36:39,963 [INFO]  Epoch[5] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:37:18,651 [INFO]  Epoch[6] Batch [0-200]	Speed: 83.15 samples/sec	cross-entropy=0.003176	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:37:18,651 [INFO]  Epoch[6] Batch [0-200]	Speed: 83.15 samples/sec	cross-entropy=0.003176	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:37:18,651 [INFO]  Epoch[6] Batch [0-200]	Speed: 83.15 samples/sec	cross-entropy=0.003176	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:37:56,816 [INFO]  Epoch[6] Train-cross-entropy=0.003125
+2019-05-01 03:37:56,816 [INFO]  Epoch[6] Train-cross-entropy=0.003125
+2019-05-01 03:37:56,816 [INFO]  Epoch[6] Train-cross-entropy=0.003125
+2019-05-01 03:37:56,818 [INFO]  Epoch[6] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:37:56,818 [INFO]  Epoch[6] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:37:56,818 [INFO]  Epoch[6] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:37:56,819 [INFO]  Epoch[6] Time cost=76.854
+2019-05-01 03:37:56,819 [INFO]  Epoch[6] Time cost=76.854
+2019-05-01 03:37:56,819 [INFO]  Epoch[6] Time cost=76.854
+2019-05-01 03:37:57,061 [INFO]  Saved checkpoint to "imputer_model0/model-0006.params"
+2019-05-01 03:37:57,061 [INFO]  Saved checkpoint to "imputer_model0/model-0006.params"
+2019-05-01 03:37:57,061 [INFO]  Saved checkpoint to "imputer_model0/model-0006.params"
+2019-05-01 03:38:09,083 [INFO]  Epoch[6] Validation-cross-entropy=0.008936
+2019-05-01 03:38:09,083 [INFO]  Epoch[6] Validation-cross-entropy=0.008936
+2019-05-01 03:38:09,083 [INFO]  Epoch[6] Validation-cross-entropy=0.008936
+2019-05-01 03:38:09,085 [INFO]  Epoch[6] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:38:09,085 [INFO]  Epoch[6] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:38:09,085 [INFO]  Epoch[6] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:38:47,337 [INFO]  Epoch[7] Batch [0-200]	Speed: 84.09 samples/sec	cross-entropy=0.002357	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:38:47,337 [INFO]  Epoch[7] Batch [0-200]	Speed: 84.09 samples/sec	cross-entropy=0.002357	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:38:47,337 [INFO]  Epoch[7] Batch [0-200]	Speed: 84.09 samples/sec	cross-entropy=0.002357	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:39:25,548 [INFO]  Epoch[7] Train-cross-entropy=0.002331
+2019-05-01 03:39:25,548 [INFO]  Epoch[7] Train-cross-entropy=0.002331
+2019-05-01 03:39:25,548 [INFO]  Epoch[7] Train-cross-entropy=0.002331
+2019-05-01 03:39:25,549 [INFO]  Epoch[7] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:39:25,549 [INFO]  Epoch[7] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:39:25,549 [INFO]  Epoch[7] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:39:25,551 [INFO]  Epoch[7] Time cost=76.465
+2019-05-01 03:39:25,551 [INFO]  Epoch[7] Time cost=76.465
+2019-05-01 03:39:25,551 [INFO]  Epoch[7] Time cost=76.465
+2019-05-01 03:39:25,770 [INFO]  Saved checkpoint to "imputer_model0/model-0007.params"
+2019-05-01 03:39:25,770 [INFO]  Saved checkpoint to "imputer_model0/model-0007.params"
+2019-05-01 03:39:25,770 [INFO]  Saved checkpoint to "imputer_model0/model-0007.params"
+2019-05-01 03:39:37,913 [INFO]  Epoch[7] Validation-cross-entropy=0.007945
+2019-05-01 03:39:37,913 [INFO]  Epoch[7] Validation-cross-entropy=0.007945
+2019-05-01 03:39:37,913 [INFO]  Epoch[7] Validation-cross-entropy=0.007945
+2019-05-01 03:39:37,914 [INFO]  Epoch[7] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:39:37,914 [INFO]  Epoch[7] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:39:37,914 [INFO]  Epoch[7] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:40:17,240 [INFO]  Epoch[8] Batch [0-200]	Speed: 81.78 samples/sec	cross-entropy=0.001794	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:40:17,240 [INFO]  Epoch[8] Batch [0-200]	Speed: 81.78 samples/sec	cross-entropy=0.001794	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:40:17,240 [INFO]  Epoch[8] Batch [0-200]	Speed: 81.78 samples/sec	cross-entropy=0.001794	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:40:55,643 [INFO]  Epoch[8] Train-cross-entropy=0.001781
+2019-05-01 03:40:55,643 [INFO]  Epoch[8] Train-cross-entropy=0.001781
+2019-05-01 03:40:55,643 [INFO]  Epoch[8] Train-cross-entropy=0.001781
+2019-05-01 03:40:55,646 [INFO]  Epoch[8] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:40:55,646 [INFO]  Epoch[8] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:40:55,646 [INFO]  Epoch[8] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:40:55,647 [INFO]  Epoch[8] Time cost=77.732
+2019-05-01 03:40:55,647 [INFO]  Epoch[8] Time cost=77.732
+2019-05-01 03:40:55,647 [INFO]  Epoch[8] Time cost=77.732
+2019-05-01 03:40:55,901 [INFO]  Saved checkpoint to "imputer_model0/model-0008.params"
+2019-05-01 03:40:55,901 [INFO]  Saved checkpoint to "imputer_model0/model-0008.params"
+2019-05-01 03:40:55,901 [INFO]  Saved checkpoint to "imputer_model0/model-0008.params"
+2019-05-01 03:41:07,905 [INFO]  Epoch[8] Validation-cross-entropy=0.007228
+2019-05-01 03:41:07,905 [INFO]  Epoch[8] Validation-cross-entropy=0.007228
+2019-05-01 03:41:07,905 [INFO]  Epoch[8] Validation-cross-entropy=0.007228
+2019-05-01 03:41:07,906 [INFO]  Epoch[8] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:41:07,906 [INFO]  Epoch[8] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:41:07,906 [INFO]  Epoch[8] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:41:46,564 [INFO]  Epoch[9] Batch [0-200]	Speed: 83.21 samples/sec	cross-entropy=0.001391	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:41:46,564 [INFO]  Epoch[9] Batch [0-200]	Speed: 83.21 samples/sec	cross-entropy=0.001391	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:41:46,564 [INFO]  Epoch[9] Batch [0-200]	Speed: 83.21 samples/sec	cross-entropy=0.001391	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:42:24,934 [INFO]  Epoch[9] Train-cross-entropy=0.001385
+2019-05-01 03:42:24,934 [INFO]  Epoch[9] Train-cross-entropy=0.001385
+2019-05-01 03:42:24,934 [INFO]  Epoch[9] Train-cross-entropy=0.001385
+2019-05-01 03:42:24,935 [INFO]  Epoch[9] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:42:24,935 [INFO]  Epoch[9] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:42:24,935 [INFO]  Epoch[9] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:42:24,936 [INFO]  Epoch[9] Time cost=77.028
+2019-05-01 03:42:24,936 [INFO]  Epoch[9] Time cost=77.028
+2019-05-01 03:42:24,936 [INFO]  Epoch[9] Time cost=77.028
+2019-05-01 03:42:25,177 [INFO]  Saved checkpoint to "imputer_model0/model-0009.params"
+2019-05-01 03:42:25,177 [INFO]  Saved checkpoint to "imputer_model0/model-0009.params"
+2019-05-01 03:42:25,177 [INFO]  Saved checkpoint to "imputer_model0/model-0009.params"
+2019-05-01 03:42:37,195 [INFO]  Epoch[9] Validation-cross-entropy=0.006647
+2019-05-01 03:42:37,195 [INFO]  Epoch[9] Validation-cross-entropy=0.006647
+2019-05-01 03:42:37,195 [INFO]  Epoch[9] Validation-cross-entropy=0.006647
+2019-05-01 03:42:37,196 [INFO]  Epoch[9] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:42:37,196 [INFO]  Epoch[9] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:42:37,196 [INFO]  Epoch[9] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:43:15,913 [INFO]  Epoch[10] Batch [0-200]	Speed: 83.08 samples/sec	cross-entropy=0.001093	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:43:15,913 [INFO]  Epoch[10] Batch [0-200]	Speed: 83.08 samples/sec	cross-entropy=0.001093	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:43:15,913 [INFO]  Epoch[10] Batch [0-200]	Speed: 83.08 samples/sec	cross-entropy=0.001093	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:43:54,226 [INFO]  Epoch[10] Train-cross-entropy=0.001092
+2019-05-01 03:43:54,226 [INFO]  Epoch[10] Train-cross-entropy=0.001092
+2019-05-01 03:43:54,226 [INFO]  Epoch[10] Train-cross-entropy=0.001092
+2019-05-01 03:43:54,228 [INFO]  Epoch[10] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:43:54,228 [INFO]  Epoch[10] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:43:54,228 [INFO]  Epoch[10] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:43:54,229 [INFO]  Epoch[10] Time cost=77.031
+2019-05-01 03:43:54,229 [INFO]  Epoch[10] Time cost=77.031
+2019-05-01 03:43:54,229 [INFO]  Epoch[10] Time cost=77.031
+2019-05-01 03:43:54,466 [INFO]  Saved checkpoint to "imputer_model0/model-0010.params"
+2019-05-01 03:43:54,466 [INFO]  Saved checkpoint to "imputer_model0/model-0010.params"
+2019-05-01 03:43:54,466 [INFO]  Saved checkpoint to "imputer_model0/model-0010.params"
+2019-05-01 03:44:06,454 [INFO]  Epoch[10] Validation-cross-entropy=0.006218
+2019-05-01 03:44:06,454 [INFO]  Epoch[10] Validation-cross-entropy=0.006218
+2019-05-01 03:44:06,454 [INFO]  Epoch[10] Validation-cross-entropy=0.006218
+2019-05-01 03:44:06,456 [INFO]  Epoch[10] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:44:06,456 [INFO]  Epoch[10] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:44:06,456 [INFO]  Epoch[10] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:44:45,391 [INFO]  Epoch[11] Batch [0-200]	Speed: 82.61 samples/sec	cross-entropy=0.000868	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:44:45,391 [INFO]  Epoch[11] Batch [0-200]	Speed: 82.61 samples/sec	cross-entropy=0.000868	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:44:45,391 [INFO]  Epoch[11] Batch [0-200]	Speed: 82.61 samples/sec	cross-entropy=0.000868	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:45:23,989 [INFO]  Epoch[11] Train-cross-entropy=0.000868
+2019-05-01 03:45:23,989 [INFO]  Epoch[11] Train-cross-entropy=0.000868
+2019-05-01 03:45:23,989 [INFO]  Epoch[11] Train-cross-entropy=0.000868
+2019-05-01 03:45:23,990 [INFO]  Epoch[11] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:45:23,990 [INFO]  Epoch[11] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:45:23,990 [INFO]  Epoch[11] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:45:23,992 [INFO]  Epoch[11] Time cost=77.535
+2019-05-01 03:45:23,992 [INFO]  Epoch[11] Time cost=77.535
+2019-05-01 03:45:23,992 [INFO]  Epoch[11] Time cost=77.535
+2019-05-01 03:45:24,231 [INFO]  Saved checkpoint to "imputer_model0/model-0011.params"
+2019-05-01 03:45:24,231 [INFO]  Saved checkpoint to "imputer_model0/model-0011.params"
+2019-05-01 03:45:24,231 [INFO]  Saved checkpoint to "imputer_model0/model-0011.params"
+2019-05-01 03:45:36,208 [INFO]  Epoch[11] Validation-cross-entropy=0.005884
+2019-05-01 03:45:36,208 [INFO]  Epoch[11] Validation-cross-entropy=0.005884
+2019-05-01 03:45:36,208 [INFO]  Epoch[11] Validation-cross-entropy=0.005884
+2019-05-01 03:45:36,211 [INFO]  Epoch[11] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:45:36,211 [INFO]  Epoch[11] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:45:36,211 [INFO]  Epoch[11] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:46:14,588 [INFO]  Epoch[12] Batch [0-200]	Speed: 83.92 samples/sec	cross-entropy=0.000695	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:46:14,588 [INFO]  Epoch[12] Batch [0-200]	Speed: 83.92 samples/sec	cross-entropy=0.000695	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:46:14,588 [INFO]  Epoch[12] Batch [0-200]	Speed: 83.92 samples/sec	cross-entropy=0.000695	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:46:53,176 [INFO]  Epoch[12] Train-cross-entropy=0.000696
+2019-05-01 03:46:53,176 [INFO]  Epoch[12] Train-cross-entropy=0.000696
+2019-05-01 03:46:53,176 [INFO]  Epoch[12] Train-cross-entropy=0.000696
+2019-05-01 03:46:53,178 [INFO]  Epoch[12] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:46:53,178 [INFO]  Epoch[12] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:46:53,178 [INFO]  Epoch[12] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:46:53,179 [INFO]  Epoch[12] Time cost=76.967
+2019-05-01 03:46:53,179 [INFO]  Epoch[12] Time cost=76.967
+2019-05-01 03:46:53,179 [INFO]  Epoch[12] Time cost=76.967
+2019-05-01 03:46:53,394 [INFO]  Saved checkpoint to "imputer_model0/model-0012.params"
+2019-05-01 03:46:53,394 [INFO]  Saved checkpoint to "imputer_model0/model-0012.params"
+2019-05-01 03:46:53,394 [INFO]  Saved checkpoint to "imputer_model0/model-0012.params"
+2019-05-01 03:47:05,560 [INFO]  Epoch[12] Validation-cross-entropy=0.005617
+2019-05-01 03:47:05,560 [INFO]  Epoch[12] Validation-cross-entropy=0.005617
+2019-05-01 03:47:05,560 [INFO]  Epoch[12] Validation-cross-entropy=0.005617
+2019-05-01 03:47:05,562 [INFO]  Epoch[12] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:47:05,562 [INFO]  Epoch[12] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:47:05,562 [INFO]  Epoch[12] Validation-PRODUCT_COMBINATION-accuracy=0.998750
+2019-05-01 03:47:44,324 [INFO]  Epoch[13] Batch [0-200]	Speed: 82.97 samples/sec	cross-entropy=0.000559	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:47:44,324 [INFO]  Epoch[13] Batch [0-200]	Speed: 82.97 samples/sec	cross-entropy=0.000559	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:47:44,324 [INFO]  Epoch[13] Batch [0-200]	Speed: 82.97 samples/sec	cross-entropy=0.000559	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:48:22,590 [INFO]  Epoch[13] Train-cross-entropy=0.000561
+2019-05-01 03:48:22,590 [INFO]  Epoch[13] Train-cross-entropy=0.000561
+2019-05-01 03:48:22,590 [INFO]  Epoch[13] Train-cross-entropy=0.000561
+2019-05-01 03:48:22,591 [INFO]  Epoch[13] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:48:22,591 [INFO]  Epoch[13] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:48:22,591 [INFO]  Epoch[13] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:48:22,593 [INFO]  Epoch[13] Time cost=77.029
+2019-05-01 03:48:22,593 [INFO]  Epoch[13] Time cost=77.029
+2019-05-01 03:48:22,593 [INFO]  Epoch[13] Time cost=77.029
+2019-05-01 03:48:22,838 [INFO]  Saved checkpoint to "imputer_model0/model-0013.params"
+2019-05-01 03:48:22,838 [INFO]  Saved checkpoint to "imputer_model0/model-0013.params"
+2019-05-01 03:48:22,838 [INFO]  Saved checkpoint to "imputer_model0/model-0013.params"
+2019-05-01 03:48:35,079 [INFO]  Epoch[13] Validation-cross-entropy=0.005411
+2019-05-01 03:48:35,079 [INFO]  Epoch[13] Validation-cross-entropy=0.005411
+2019-05-01 03:48:35,079 [INFO]  Epoch[13] Validation-cross-entropy=0.005411
+2019-05-01 03:48:35,082 [INFO]  Epoch[13] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:48:35,082 [INFO]  Epoch[13] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:48:35,082 [INFO]  Epoch[13] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:49:13,766 [INFO]  Epoch[14] Batch [0-200]	Speed: 83.13 samples/sec	cross-entropy=0.000452	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:49:13,766 [INFO]  Epoch[14] Batch [0-200]	Speed: 83.13 samples/sec	cross-entropy=0.000452	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:49:13,766 [INFO]  Epoch[14] Batch [0-200]	Speed: 83.13 samples/sec	cross-entropy=0.000452	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:49:52,216 [INFO]  Epoch[14] Train-cross-entropy=0.000455
+2019-05-01 03:49:52,216 [INFO]  Epoch[14] Train-cross-entropy=0.000455
+2019-05-01 03:49:52,216 [INFO]  Epoch[14] Train-cross-entropy=0.000455
+2019-05-01 03:49:52,218 [INFO]  Epoch[14] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:49:52,218 [INFO]  Epoch[14] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:49:52,218 [INFO]  Epoch[14] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:49:52,220 [INFO]  Epoch[14] Time cost=77.137
+2019-05-01 03:49:52,220 [INFO]  Epoch[14] Time cost=77.137
+2019-05-01 03:49:52,220 [INFO]  Epoch[14] Time cost=77.137
+2019-05-01 03:49:52,437 [INFO]  Saved checkpoint to "imputer_model0/model-0014.params"
+2019-05-01 03:49:52,437 [INFO]  Saved checkpoint to "imputer_model0/model-0014.params"
+2019-05-01 03:49:52,437 [INFO]  Saved checkpoint to "imputer_model0/model-0014.params"
+2019-05-01 03:50:04,619 [INFO]  Epoch[14] Validation-cross-entropy=0.005195
+2019-05-01 03:50:04,619 [INFO]  Epoch[14] Validation-cross-entropy=0.005195
+2019-05-01 03:50:04,619 [INFO]  Epoch[14] Validation-cross-entropy=0.005195
+2019-05-01 03:50:04,620 [INFO]  Epoch[14] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:50:04,620 [INFO]  Epoch[14] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:50:04,620 [INFO]  Epoch[14] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:50:43,496 [INFO]  Epoch[15] Batch [0-200]	Speed: 82.72 samples/sec	cross-entropy=0.000368	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:50:43,496 [INFO]  Epoch[15] Batch [0-200]	Speed: 82.72 samples/sec	cross-entropy=0.000368	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:50:43,496 [INFO]  Epoch[15] Batch [0-200]	Speed: 82.72 samples/sec	cross-entropy=0.000368	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:51:21,887 [INFO]  Epoch[15] Train-cross-entropy=0.000370
+2019-05-01 03:51:21,887 [INFO]  Epoch[15] Train-cross-entropy=0.000370
+2019-05-01 03:51:21,887 [INFO]  Epoch[15] Train-cross-entropy=0.000370
+2019-05-01 03:51:21,888 [INFO]  Epoch[15] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:51:21,888 [INFO]  Epoch[15] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:51:21,888 [INFO]  Epoch[15] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:51:21,890 [INFO]  Epoch[15] Time cost=77.268
+2019-05-01 03:51:21,890 [INFO]  Epoch[15] Time cost=77.268
+2019-05-01 03:51:21,890 [INFO]  Epoch[15] Time cost=77.268
+2019-05-01 03:51:22,110 [INFO]  Saved checkpoint to "imputer_model0/model-0015.params"
+2019-05-01 03:51:22,110 [INFO]  Saved checkpoint to "imputer_model0/model-0015.params"
+2019-05-01 03:51:22,110 [INFO]  Saved checkpoint to "imputer_model0/model-0015.params"
+2019-05-01 03:51:34,258 [INFO]  Epoch[15] Validation-cross-entropy=0.005092
+2019-05-01 03:51:34,258 [INFO]  Epoch[15] Validation-cross-entropy=0.005092
+2019-05-01 03:51:34,258 [INFO]  Epoch[15] Validation-cross-entropy=0.005092
+2019-05-01 03:51:34,260 [INFO]  Epoch[15] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:51:34,260 [INFO]  Epoch[15] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:51:34,260 [INFO]  Epoch[15] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:52:12,977 [INFO]  Epoch[16] Batch [0-200]	Speed: 83.06 samples/sec	cross-entropy=0.000299	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:52:12,977 [INFO]  Epoch[16] Batch [0-200]	Speed: 83.06 samples/sec	cross-entropy=0.000299	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:52:12,977 [INFO]  Epoch[16] Batch [0-200]	Speed: 83.06 samples/sec	cross-entropy=0.000299	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:52:51,205 [INFO]  Epoch[16] Train-cross-entropy=0.000301
+2019-05-01 03:52:51,205 [INFO]  Epoch[16] Train-cross-entropy=0.000301
+2019-05-01 03:52:51,205 [INFO]  Epoch[16] Train-cross-entropy=0.000301
+2019-05-01 03:52:51,206 [INFO]  Epoch[16] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:52:51,206 [INFO]  Epoch[16] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:52:51,206 [INFO]  Epoch[16] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:52:51,208 [INFO]  Epoch[16] Time cost=76.947
+2019-05-01 03:52:51,208 [INFO]  Epoch[16] Time cost=76.947
+2019-05-01 03:52:51,208 [INFO]  Epoch[16] Time cost=76.947
+2019-05-01 03:52:51,422 [INFO]  Saved checkpoint to "imputer_model0/model-0016.params"
+2019-05-01 03:52:51,422 [INFO]  Saved checkpoint to "imputer_model0/model-0016.params"
+2019-05-01 03:52:51,422 [INFO]  Saved checkpoint to "imputer_model0/model-0016.params"
+2019-05-01 03:53:03,672 [INFO]  Epoch[16] Validation-cross-entropy=0.004995
+2019-05-01 03:53:03,672 [INFO]  Epoch[16] Validation-cross-entropy=0.004995
+2019-05-01 03:53:03,672 [INFO]  Epoch[16] Validation-cross-entropy=0.004995
+2019-05-01 03:53:03,674 [INFO]  Epoch[16] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:53:03,674 [INFO]  Epoch[16] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:53:03,674 [INFO]  Epoch[16] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:53:42,278 [INFO]  Epoch[17] Batch [0-200]	Speed: 83.32 samples/sec	cross-entropy=0.000244	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:53:42,278 [INFO]  Epoch[17] Batch [0-200]	Speed: 83.32 samples/sec	cross-entropy=0.000244	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:53:42,278 [INFO]  Epoch[17] Batch [0-200]	Speed: 83.32 samples/sec	cross-entropy=0.000244	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:54:20,692 [INFO]  Epoch[17] Train-cross-entropy=0.000246
+2019-05-01 03:54:20,692 [INFO]  Epoch[17] Train-cross-entropy=0.000246
+2019-05-01 03:54:20,692 [INFO]  Epoch[17] Train-cross-entropy=0.000246
+2019-05-01 03:54:20,694 [INFO]  Epoch[17] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:54:20,694 [INFO]  Epoch[17] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:54:20,694 [INFO]  Epoch[17] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:54:20,695 [INFO]  Epoch[17] Time cost=77.019
+2019-05-01 03:54:20,695 [INFO]  Epoch[17] Time cost=77.019
+2019-05-01 03:54:20,695 [INFO]  Epoch[17] Time cost=77.019
+2019-05-01 03:54:20,917 [INFO]  Saved checkpoint to "imputer_model0/model-0017.params"
+2019-05-01 03:54:20,917 [INFO]  Saved checkpoint to "imputer_model0/model-0017.params"
+2019-05-01 03:54:20,917 [INFO]  Saved checkpoint to "imputer_model0/model-0017.params"
+2019-05-01 03:54:33,095 [INFO]  Epoch[17] Validation-cross-entropy=0.004876
+2019-05-01 03:54:33,095 [INFO]  Epoch[17] Validation-cross-entropy=0.004876
+2019-05-01 03:54:33,095 [INFO]  Epoch[17] Validation-cross-entropy=0.004876
+2019-05-01 03:54:33,097 [INFO]  Epoch[17] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:54:33,097 [INFO]  Epoch[17] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:54:33,097 [INFO]  Epoch[17] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:55:12,013 [INFO]  Epoch[18] Batch [0-200]	Speed: 82.63 samples/sec	cross-entropy=0.000200	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:55:12,013 [INFO]  Epoch[18] Batch [0-200]	Speed: 82.63 samples/sec	cross-entropy=0.000200	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:55:12,013 [INFO]  Epoch[18] Batch [0-200]	Speed: 82.63 samples/sec	cross-entropy=0.000200	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:55:50,270 [INFO]  Epoch[18] Train-cross-entropy=0.000202
+2019-05-01 03:55:50,270 [INFO]  Epoch[18] Train-cross-entropy=0.000202
+2019-05-01 03:55:50,270 [INFO]  Epoch[18] Train-cross-entropy=0.000202
+2019-05-01 03:55:50,271 [INFO]  Epoch[18] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:55:50,271 [INFO]  Epoch[18] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:55:50,271 [INFO]  Epoch[18] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:55:50,272 [INFO]  Epoch[18] Time cost=77.174
+2019-05-01 03:55:50,272 [INFO]  Epoch[18] Time cost=77.174
+2019-05-01 03:55:50,272 [INFO]  Epoch[18] Time cost=77.174
+2019-05-01 03:55:50,490 [INFO]  Saved checkpoint to "imputer_model0/model-0018.params"
+2019-05-01 03:55:50,490 [INFO]  Saved checkpoint to "imputer_model0/model-0018.params"
+2019-05-01 03:55:50,490 [INFO]  Saved checkpoint to "imputer_model0/model-0018.params"
+2019-05-01 03:56:02,719 [INFO]  Epoch[18] Validation-cross-entropy=0.004836
+2019-05-01 03:56:02,719 [INFO]  Epoch[18] Validation-cross-entropy=0.004836
+2019-05-01 03:56:02,719 [INFO]  Epoch[18] Validation-cross-entropy=0.004836
+2019-05-01 03:56:02,720 [INFO]  Epoch[18] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:56:02,720 [INFO]  Epoch[18] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:56:02,720 [INFO]  Epoch[18] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:56:41,353 [INFO]  Epoch[19] Batch [0-200]	Speed: 83.24 samples/sec	cross-entropy=0.000164	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:56:41,353 [INFO]  Epoch[19] Batch [0-200]	Speed: 83.24 samples/sec	cross-entropy=0.000164	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:56:41,353 [INFO]  Epoch[19] Batch [0-200]	Speed: 83.24 samples/sec	cross-entropy=0.000164	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:57:19,691 [INFO]  Epoch[19] Train-cross-entropy=0.000165
+2019-05-01 03:57:19,691 [INFO]  Epoch[19] Train-cross-entropy=0.000165
+2019-05-01 03:57:19,691 [INFO]  Epoch[19] Train-cross-entropy=0.000165
+2019-05-01 03:57:19,693 [INFO]  Epoch[19] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:57:19,693 [INFO]  Epoch[19] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:57:19,693 [INFO]  Epoch[19] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:57:19,695 [INFO]  Epoch[19] Time cost=76.974
+2019-05-01 03:57:19,695 [INFO]  Epoch[19] Time cost=76.974
+2019-05-01 03:57:19,695 [INFO]  Epoch[19] Time cost=76.974
+2019-05-01 03:57:19,912 [INFO]  Saved checkpoint to "imputer_model0/model-0019.params"
+2019-05-01 03:57:19,912 [INFO]  Saved checkpoint to "imputer_model0/model-0019.params"
+2019-05-01 03:57:19,912 [INFO]  Saved checkpoint to "imputer_model0/model-0019.params"
+2019-05-01 03:57:32,100 [INFO]  Epoch[19] Validation-cross-entropy=0.004792
+2019-05-01 03:57:32,100 [INFO]  Epoch[19] Validation-cross-entropy=0.004792
+2019-05-01 03:57:32,100 [INFO]  Epoch[19] Validation-cross-entropy=0.004792
+2019-05-01 03:57:32,101 [INFO]  Epoch[19] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:57:32,101 [INFO]  Epoch[19] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:57:32,101 [INFO]  Epoch[19] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:58:10,757 [INFO]  Epoch[20] Batch [0-200]	Speed: 83.21 samples/sec	cross-entropy=0.000134	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:58:10,757 [INFO]  Epoch[20] Batch [0-200]	Speed: 83.21 samples/sec	cross-entropy=0.000134	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:58:10,757 [INFO]  Epoch[20] Batch [0-200]	Speed: 83.21 samples/sec	cross-entropy=0.000134	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:58:49,074 [INFO]  Epoch[20] Train-cross-entropy=0.000136
+2019-05-01 03:58:49,074 [INFO]  Epoch[20] Train-cross-entropy=0.000136
+2019-05-01 03:58:49,074 [INFO]  Epoch[20] Train-cross-entropy=0.000136
+2019-05-01 03:58:49,075 [INFO]  Epoch[20] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:58:49,075 [INFO]  Epoch[20] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:58:49,075 [INFO]  Epoch[20] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:58:49,077 [INFO]  Epoch[20] Time cost=76.975
+2019-05-01 03:58:49,077 [INFO]  Epoch[20] Time cost=76.975
+2019-05-01 03:58:49,077 [INFO]  Epoch[20] Time cost=76.975
+2019-05-01 03:58:49,298 [INFO]  Saved checkpoint to "imputer_model0/model-0020.params"
+2019-05-01 03:58:49,298 [INFO]  Saved checkpoint to "imputer_model0/model-0020.params"
+2019-05-01 03:58:49,298 [INFO]  Saved checkpoint to "imputer_model0/model-0020.params"
+2019-05-01 03:59:01,490 [INFO]  Epoch[20] Validation-cross-entropy=0.004778
+2019-05-01 03:59:01,490 [INFO]  Epoch[20] Validation-cross-entropy=0.004778
+2019-05-01 03:59:01,490 [INFO]  Epoch[20] Validation-cross-entropy=0.004778
+2019-05-01 03:59:01,494 [INFO]  Epoch[20] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:59:01,494 [INFO]  Epoch[20] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:59:01,494 [INFO]  Epoch[20] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 03:59:40,259 [INFO]  Epoch[21] Batch [0-200]	Speed: 82.96 samples/sec	cross-entropy=0.000110	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:59:40,259 [INFO]  Epoch[21] Batch [0-200]	Speed: 82.96 samples/sec	cross-entropy=0.000110	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 03:59:40,259 [INFO]  Epoch[21] Batch [0-200]	Speed: 82.96 samples/sec	cross-entropy=0.000110	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:00:18,693 [INFO]  Epoch[21] Train-cross-entropy=0.000111
+2019-05-01 04:00:18,693 [INFO]  Epoch[21] Train-cross-entropy=0.000111
+2019-05-01 04:00:18,693 [INFO]  Epoch[21] Train-cross-entropy=0.000111
+2019-05-01 04:00:18,694 [INFO]  Epoch[21] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:00:18,694 [INFO]  Epoch[21] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:00:18,694 [INFO]  Epoch[21] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:00:18,696 [INFO]  Epoch[21] Time cost=77.201
+2019-05-01 04:00:18,696 [INFO]  Epoch[21] Time cost=77.201
+2019-05-01 04:00:18,696 [INFO]  Epoch[21] Time cost=77.201
+2019-05-01 04:00:18,911 [INFO]  Saved checkpoint to "imputer_model0/model-0021.params"
+2019-05-01 04:00:18,911 [INFO]  Saved checkpoint to "imputer_model0/model-0021.params"
+2019-05-01 04:00:18,911 [INFO]  Saved checkpoint to "imputer_model0/model-0021.params"
+2019-05-01 04:00:31,093 [INFO]  Epoch[21] Validation-cross-entropy=0.004763
+2019-05-01 04:00:31,093 [INFO]  Epoch[21] Validation-cross-entropy=0.004763
+2019-05-01 04:00:31,093 [INFO]  Epoch[21] Validation-cross-entropy=0.004763
+2019-05-01 04:00:31,097 [INFO]  Epoch[21] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:00:31,097 [INFO]  Epoch[21] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:00:31,097 [INFO]  Epoch[21] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:01:09,865 [INFO]  Epoch[22] Batch [0-200]	Speed: 82.97 samples/sec	cross-entropy=0.000090	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:01:09,865 [INFO]  Epoch[22] Batch [0-200]	Speed: 82.97 samples/sec	cross-entropy=0.000090	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:01:09,865 [INFO]  Epoch[22] Batch [0-200]	Speed: 82.97 samples/sec	cross-entropy=0.000090	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:01:48,103 [INFO]  Epoch[22] Train-cross-entropy=0.000092
+2019-05-01 04:01:48,103 [INFO]  Epoch[22] Train-cross-entropy=0.000092
+2019-05-01 04:01:48,103 [INFO]  Epoch[22] Train-cross-entropy=0.000092
+2019-05-01 04:01:48,105 [INFO]  Epoch[22] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:01:48,105 [INFO]  Epoch[22] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:01:48,105 [INFO]  Epoch[22] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:01:48,106 [INFO]  Epoch[22] Time cost=77.008
+2019-05-01 04:01:48,106 [INFO]  Epoch[22] Time cost=77.008
+2019-05-01 04:01:48,106 [INFO]  Epoch[22] Time cost=77.008
+2019-05-01 04:01:48,317 [INFO]  Saved checkpoint to "imputer_model0/model-0022.params"
+2019-05-01 04:01:48,317 [INFO]  Saved checkpoint to "imputer_model0/model-0022.params"
+2019-05-01 04:01:48,317 [INFO]  Saved checkpoint to "imputer_model0/model-0022.params"
+2019-05-01 04:02:00,424 [INFO]  Epoch[22] Validation-cross-entropy=0.004752
+2019-05-01 04:02:00,424 [INFO]  Epoch[22] Validation-cross-entropy=0.004752
+2019-05-01 04:02:00,424 [INFO]  Epoch[22] Validation-cross-entropy=0.004752
+2019-05-01 04:02:00,427 [INFO]  Epoch[22] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:02:00,427 [INFO]  Epoch[22] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:02:00,427 [INFO]  Epoch[22] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:02:39,180 [INFO]  Epoch[23] Batch [0-200]	Speed: 83.04 samples/sec	cross-entropy=0.000074	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:02:39,180 [INFO]  Epoch[23] Batch [0-200]	Speed: 83.04 samples/sec	cross-entropy=0.000074	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:02:39,180 [INFO]  Epoch[23] Batch [0-200]	Speed: 83.04 samples/sec	cross-entropy=0.000074	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:03:17,528 [INFO]  Epoch[23] Train-cross-entropy=0.000075
+2019-05-01 04:03:17,528 [INFO]  Epoch[23] Train-cross-entropy=0.000075
+2019-05-01 04:03:17,528 [INFO]  Epoch[23] Train-cross-entropy=0.000075
+2019-05-01 04:03:17,530 [INFO]  Epoch[23] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:03:17,530 [INFO]  Epoch[23] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:03:17,530 [INFO]  Epoch[23] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:03:17,531 [INFO]  Epoch[23] Time cost=77.103
+2019-05-01 04:03:17,531 [INFO]  Epoch[23] Time cost=77.103
+2019-05-01 04:03:17,531 [INFO]  Epoch[23] Time cost=77.103
+2019-05-01 04:03:17,746 [INFO]  Saved checkpoint to "imputer_model0/model-0023.params"
+2019-05-01 04:03:17,746 [INFO]  Saved checkpoint to "imputer_model0/model-0023.params"
+2019-05-01 04:03:17,746 [INFO]  Saved checkpoint to "imputer_model0/model-0023.params"
+2019-05-01 04:03:29,893 [INFO]  Epoch[23] Validation-cross-entropy=0.004706
+2019-05-01 04:03:29,893 [INFO]  Epoch[23] Validation-cross-entropy=0.004706
+2019-05-01 04:03:29,893 [INFO]  Epoch[23] Validation-cross-entropy=0.004706
+2019-05-01 04:03:29,896 [INFO]  Epoch[23] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:03:29,896 [INFO]  Epoch[23] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:03:29,896 [INFO]  Epoch[23] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:04:08,572 [INFO]  Epoch[24] Batch [0-200]	Speed: 83.16 samples/sec	cross-entropy=0.000061	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:04:08,572 [INFO]  Epoch[24] Batch [0-200]	Speed: 83.16 samples/sec	cross-entropy=0.000061	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:04:08,572 [INFO]  Epoch[24] Batch [0-200]	Speed: 83.16 samples/sec	cross-entropy=0.000061	PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:04:46,849 [INFO]  Epoch[24] Train-cross-entropy=0.000062
+2019-05-01 04:04:46,849 [INFO]  Epoch[24] Train-cross-entropy=0.000062
+2019-05-01 04:04:46,849 [INFO]  Epoch[24] Train-cross-entropy=0.000062
+2019-05-01 04:04:46,852 [INFO]  Epoch[24] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:04:46,852 [INFO]  Epoch[24] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:04:46,852 [INFO]  Epoch[24] Train-PRODUCT_COMBINATION-accuracy=1.000000
+2019-05-01 04:04:46,853 [INFO]  Epoch[24] Time cost=76.956
+2019-05-01 04:04:46,853 [INFO]  Epoch[24] Time cost=76.956
+2019-05-01 04:04:46,853 [INFO]  Epoch[24] Time cost=76.956
+2019-05-01 04:04:47,065 [INFO]  Saved checkpoint to "imputer_model0/model-0024.params"
+2019-05-01 04:04:47,065 [INFO]  Saved checkpoint to "imputer_model0/model-0024.params"
+2019-05-01 04:04:47,065 [INFO]  Saved checkpoint to "imputer_model0/model-0024.params"
+2019-05-01 04:04:59,224 [INFO]  Epoch[24] Validation-cross-entropy=0.004755
+2019-05-01 04:04:59,224 [INFO]  Epoch[24] Validation-cross-entropy=0.004755
+2019-05-01 04:04:59,224 [INFO]  Epoch[24] Validation-cross-entropy=0.004755
+2019-05-01 04:04:59,225 [INFO]  Epoch[24] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:04:59,225 [INFO]  Epoch[24] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:04:59,225 [INFO]  Epoch[24] Validation-PRODUCT_COMBINATION-accuracy=0.999375
+2019-05-01 04:04:59,226 [INFO]  
+========== done (2241.8056359291077 s) fit model
+2019-05-01 04:04:59,226 [INFO]  
+========== done (2241.8056359291077 s) fit model
+2019-05-01 04:04:59,226 [INFO]  
+========== done (2241.8056359291077 s) fit model
+2019-05-01 04:05:11,470 [INFO]  Expected calibration error: 0.1%
+2019-05-01 04:05:11,470 [INFO]  Expected calibration error: 0.1%
+2019-05-01 04:05:11,470 [INFO]  Expected calibration error: 0.1%
+2019-05-01 04:05:11,592 [INFO]  Expected calibration error after calibration: 0.1%
+2019-05-01 04:05:11,592 [INFO]  Expected calibration error after calibration: 0.1%
+2019-05-01 04:05:11,592 [INFO]  Expected calibration error after calibration: 0.1%
+2019-05-01 04:05:35,624 [INFO]  Keeping 1600/1600 not-missing values for evaluation of PRODUCT_COMBINATION
+2019-05-01 04:05:35,624 [INFO]  Keeping 1600/1600 not-missing values for evaluation of PRODUCT_COMBINATION
+2019-05-01 04:05:35,624 [INFO]  Keeping 1600/1600 not-missing values for evaluation of PRODUCT_COMBINATION
+2019-05-01 04:05:35,715 [INFO]  average classification metrics:
+2019-05-01 04:05:35,715 [INFO]  average classification metrics:
+2019-05-01 04:05:35,715 [INFO]  average classification metrics:
+2019-05-01 04:05:35,717 [INFO]  label: PRODUCT_COMBINATION - [('avg_precision', 0.9992912827781716), ('avg_recall', 0.9981024667931689), ('avg_f1', 0.9986791736068497), ('avg_accuracy', 0.999375)]
+2019-05-01 04:05:35,717 [INFO]  label: PRODUCT_COMBINATION - [('avg_precision', 0.9992912827781716), ('avg_recall', 0.9981024667931689), ('avg_f1', 0.9986791736068497), ('avg_accuracy', 0.999375)]
+2019-05-01 04:05:35,717 [INFO]  label: PRODUCT_COMBINATION - [('avg_precision', 0.9992912827781716), ('avg_recall', 0.9981024667931689), ('avg_f1', 0.9986791736068497), ('avg_accuracy', 0.999375)]
+2019-05-01 04:05:35,718 [INFO]  weighted average classification metrics:
+2019-05-01 04:05:35,718 [INFO]  weighted average classification metrics:
+2019-05-01 04:05:35,718 [INFO]  weighted average classification metrics:
+2019-05-01 04:05:35,720 [INFO]  label: PRODUCT_COMBINATION - [('weighted_precision', 0.999382530120482), ('weighted_recall', 0.999375), ('weighted_f1', 0.9993717709885743), ('weighted_accuracy', 0.999375)]
+2019-05-01 04:05:35,720 [INFO]  label: PRODUCT_COMBINATION - [('weighted_precision', 0.999382530120482), ('weighted_recall', 0.999375), ('weighted_f1', 0.9993717709885743), ('weighted_accuracy', 0.999375)]
+2019-05-01 04:05:35,720 [INFO]  label: PRODUCT_COMBINATION - [('weighted_precision', 0.999382530120482), ('weighted_recall', 0.999375), ('weighted_f1', 0.9993717709885743), ('weighted_accuracy', 0.999375)]
+2019-05-01 04:05:35,722 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash	Reaching 1.0 precision / 0.0 recall at threshold 0.9999990463256836
+2019-05-01 04:05:35,722 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash	Reaching 1.0 precision / 0.0 recall at threshold 0.9999990463256836
+2019-05-01 04:05:35,722 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash	Reaching 1.0 precision / 0.0 recall at threshold 0.9999990463256836
+2019-05-01 04:05:35,725 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999982118606567
+2019-05-01 04:05:35,725 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999982118606567
+2019-05-01 04:05:35,725 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999982118606567
+2019-05-01 04:05:35,727 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile with interest	Reaching 1.0 precision / 0.0 recall at threshold 1.0
+2019-05-01 04:05:35,727 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile with interest	Reaching 1.0 precision / 0.0 recall at threshold 1.0
+2019-05-01 04:05:35,727 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile with interest	Reaching 1.0 precision / 0.0 recall at threshold 1.0
+2019-05-01 04:05:35,729 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.9999964237213135
+2019-05-01 04:05:35,729 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.9999964237213135
+2019-05-01 04:05:35,729 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.9999964237213135
+2019-05-01 04:05:35,732 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: low	Reaching 1.0 precision / 0.0 recall at threshold 0.9999980926513672
+2019-05-01 04:05:35,732 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: low	Reaching 1.0 precision / 0.0 recall at threshold 0.9999980926513672
+2019-05-01 04:05:35,732 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: low	Reaching 1.0 precision / 0.0 recall at threshold 0.9999980926513672
+2019-05-01 04:05:35,734 [INFO]  Attribute PRODUCT_COMBINATION, Label: Card Street	Reaching 1.0 precision / 0.0 recall at threshold 1.0
+2019-05-01 04:05:35,734 [INFO]  Attribute PRODUCT_COMBINATION, Label: Card Street	Reaching 1.0 precision / 0.0 recall at threshold 1.0
+2019-05-01 04:05:35,734 [INFO]  Attribute PRODUCT_COMBINATION, Label: Card Street	Reaching 1.0 precision / 0.0 recall at threshold 1.0
+2019-05-01 04:05:35,738 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.999997615814209
+2019-05-01 04:05:35,738 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.999997615814209
+2019-05-01 04:05:35,738 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.999997615814209
+2019-05-01 04:05:35,741 [INFO]  Attribute PRODUCT_COMBINATION, Label: Card X-Sell	Reaching 1.0 precision / 0.0 recall at threshold 0.9999998807907104
+2019-05-01 04:05:35,741 [INFO]  Attribute PRODUCT_COMBINATION, Label: Card X-Sell	Reaching 1.0 precision / 0.0 recall at threshold 0.9999998807907104
+2019-05-01 04:05:35,741 [INFO]  Attribute PRODUCT_COMBINATION, Label: Card X-Sell	Reaching 1.0 precision / 0.0 recall at threshold 0.9999998807907104
+2019-05-01 04:05:35,743 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999972581863403
+2019-05-01 04:05:35,743 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999972581863403
+2019-05-01 04:05:35,743 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999972581863403
+2019-05-01 04:05:35,746 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: high	Reaching 1.0 precision / 0.0 recall at threshold 0.9999901056289673
+2019-05-01 04:05:35,746 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: high	Reaching 1.0 precision / 0.0 recall at threshold 0.9999901056289673
+2019-05-01 04:05:35,746 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: high	Reaching 1.0 precision / 0.0 recall at threshold 0.9999901056289673
+2019-05-01 04:05:35,749 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: high	Reaching 1.0 precision / 0.0 recall at threshold 0.9999992847442627
+2019-05-01 04:05:35,749 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: high	Reaching 1.0 precision / 0.0 recall at threshold 0.9999992847442627
+2019-05-01 04:05:35,749 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: high	Reaching 1.0 precision / 0.0 recall at threshold 0.9999992847442627
+2019-05-01 04:05:35,751 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: low	Reaching 1.0 precision / 0.0 recall at threshold 0.9999992847442627
+2019-05-01 04:05:35,751 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: low	Reaching 1.0 precision / 0.0 recall at threshold 0.9999992847442627
+2019-05-01 04:05:35,751 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: low	Reaching 1.0 precision / 0.0 recall at threshold 0.9999992847442627
+2019-05-01 04:05:35,753 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.999995231628418
+2019-05-01 04:05:35,753 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.999995231628418
+2019-05-01 04:05:35,753 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.999995231628418
+2019-05-01 04:05:35,755 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS other with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999986886978149
+2019-05-01 04:05:35,755 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS other with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999986886978149
+2019-05-01 04:05:35,755 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS other with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999986886978149
+2019-05-01 04:05:35,757 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile without interest	Reaching 0.9375 precision / 0.967741935483871 recall at threshold 0.0011907978914678097
+2019-05-01 04:05:35,757 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile without interest	Reaching 0.9375 precision / 0.967741935483871 recall at threshold 0.0011907978914678097
+2019-05-01 04:05:35,757 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile without interest	Reaching 0.9375 precision / 0.967741935483871 recall at threshold 0.0011907978914678097
+2019-05-01 04:05:35,760 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999051094055176
+2019-05-01 04:05:35,760 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999051094055176
+2019-05-01 04:05:35,760 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9999051094055176
+2019-05-01 04:05:35,762 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS others without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9997484087944031
+2019-05-01 04:05:35,762 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS others without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9997484087944031
+2019-05-01 04:05:35,762 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS others without interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9997484087944031
+2019-05-01 04:05:35,764 [INFO]  save metrics in imputer_model0/fit-test-metrics.json
+2019-05-01 04:05:35,764 [INFO]  save metrics in imputer_model0/fit-test-metrics.json
+2019-05-01 04:05:35,764 [INFO]  save metrics in imputer_model0/fit-test-metrics.json
+2019-05-01 04:05:35,774 [INFO]  Keeping imputer_model0/model-0023.params
+2019-05-01 04:05:35,774 [INFO]  Keeping imputer_model0/model-0023.params
+2019-05-01 04:05:35,774 [INFO]  Keeping imputer_model0/model-0023.params
+2019-05-01 04:05:35,776 [INFO]  Deleting imputer_model0/model-0014.params
+2019-05-01 04:05:35,776 [INFO]  Deleting imputer_model0/model-0014.params
+2019-05-01 04:05:35,776 [INFO]  Deleting imputer_model0/model-0014.params
+2019-05-01 04:05:35,778 [INFO]  Deleting imputer_model0/model-0000.params
+2019-05-01 04:05:35,778 [INFO]  Deleting imputer_model0/model-0000.params
+2019-05-01 04:05:35,778 [INFO]  Deleting imputer_model0/model-0000.params
+2019-05-01 04:05:35,780 [INFO]  Deleting imputer_model0/model-0021.params
+2019-05-01 04:05:35,780 [INFO]  Deleting imputer_model0/model-0021.params
+2019-05-01 04:05:35,780 [INFO]  Deleting imputer_model0/model-0021.params
+2019-05-01 04:05:35,783 [INFO]  Deleting imputer_model0/model-0005.params
+2019-05-01 04:05:35,783 [INFO]  Deleting imputer_model0/model-0005.params
+2019-05-01 04:05:35,783 [INFO]  Deleting imputer_model0/model-0005.params
+2019-05-01 04:05:35,785 [INFO]  Deleting imputer_model0/model-0001.params
+2019-05-01 04:05:35,785 [INFO]  Deleting imputer_model0/model-0001.params
+2019-05-01 04:05:35,785 [INFO]  Deleting imputer_model0/model-0001.params
+2019-05-01 04:05:35,788 [INFO]  Deleting imputer_model0/model-0022.params
+2019-05-01 04:05:35,788 [INFO]  Deleting imputer_model0/model-0022.params
+2019-05-01 04:05:35,788 [INFO]  Deleting imputer_model0/model-0022.params
+2019-05-01 04:05:35,790 [INFO]  Deleting imputer_model0/model-0006.params
+2019-05-01 04:05:35,790 [INFO]  Deleting imputer_model0/model-0006.params
+2019-05-01 04:05:35,790 [INFO]  Deleting imputer_model0/model-0006.params
+2019-05-01 04:05:35,793 [INFO]  Deleting imputer_model0/model-0024.params
+2019-05-01 04:05:35,793 [INFO]  Deleting imputer_model0/model-0024.params
+2019-05-01 04:05:35,793 [INFO]  Deleting imputer_model0/model-0024.params
+2019-05-01 04:05:35,801 [INFO]  Deleting imputer_model0/model-0003.params
+2019-05-01 04:05:35,801 [INFO]  Deleting imputer_model0/model-0003.params
+2019-05-01 04:05:35,801 [INFO]  Deleting imputer_model0/model-0003.params
+2019-05-01 04:05:35,803 [INFO]  Deleting imputer_model0/model-0007.params
+2019-05-01 04:05:35,803 [INFO]  Deleting imputer_model0/model-0007.params
+2019-05-01 04:05:35,803 [INFO]  Deleting imputer_model0/model-0007.params
+2019-05-01 04:05:35,805 [INFO]  Deleting imputer_model0/model-0020.params
+2019-05-01 04:05:35,805 [INFO]  Deleting imputer_model0/model-0020.params
+2019-05-01 04:05:35,805 [INFO]  Deleting imputer_model0/model-0020.params
+2019-05-01 04:05:35,807 [INFO]  Deleting imputer_model0/model-0016.params
+2019-05-01 04:05:35,807 [INFO]  Deleting imputer_model0/model-0016.params
+2019-05-01 04:05:35,807 [INFO]  Deleting imputer_model0/model-0016.params
+2019-05-01 04:05:35,809 [INFO]  Deleting imputer_model0/model-0017.params
+2019-05-01 04:05:35,809 [INFO]  Deleting imputer_model0/model-0017.params
+2019-05-01 04:05:35,809 [INFO]  Deleting imputer_model0/model-0017.params
+2019-05-01 04:05:35,811 [INFO]  Deleting imputer_model0/model-0019.params
+2019-05-01 04:05:35,811 [INFO]  Deleting imputer_model0/model-0019.params
+2019-05-01 04:05:35,811 [INFO]  Deleting imputer_model0/model-0019.params
+2019-05-01 04:05:35,813 [INFO]  Deleting imputer_model0/model-0011.params
+2019-05-01 04:05:35,813 [INFO]  Deleting imputer_model0/model-0011.params
+2019-05-01 04:05:35,813 [INFO]  Deleting imputer_model0/model-0011.params
+2019-05-01 04:05:35,815 [INFO]  Deleting imputer_model0/model-0018.params
+2019-05-01 04:05:35,815 [INFO]  Deleting imputer_model0/model-0018.params
+2019-05-01 04:05:35,815 [INFO]  Deleting imputer_model0/model-0018.params
+2019-05-01 04:05:35,817 [INFO]  Deleting imputer_model0/model-0010.params
+2019-05-01 04:05:35,817 [INFO]  Deleting imputer_model0/model-0010.params
+2019-05-01 04:05:35,817 [INFO]  Deleting imputer_model0/model-0010.params
+2019-05-01 04:05:35,818 [INFO]  Deleting imputer_model0/model-0004.params
+2019-05-01 04:05:35,818 [INFO]  Deleting imputer_model0/model-0004.params
+2019-05-01 04:05:35,818 [INFO]  Deleting imputer_model0/model-0004.params
+2019-05-01 04:05:35,820 [INFO]  Deleting imputer_model0/model-0009.params
+2019-05-01 04:05:35,820 [INFO]  Deleting imputer_model0/model-0009.params
+2019-05-01 04:05:35,820 [INFO]  Deleting imputer_model0/model-0009.params
+2019-05-01 04:05:35,822 [INFO]  Deleting imputer_model0/model-0013.params
+2019-05-01 04:05:35,822 [INFO]  Deleting imputer_model0/model-0013.params
+2019-05-01 04:05:35,822 [INFO]  Deleting imputer_model0/model-0013.params
+2019-05-01 04:05:35,824 [INFO]  Deleting imputer_model0/model-0012.params
+2019-05-01 04:05:35,824 [INFO]  Deleting imputer_model0/model-0012.params
+2019-05-01 04:05:35,824 [INFO]  Deleting imputer_model0/model-0012.params
+2019-05-01 04:05:35,826 [INFO]  Deleting imputer_model0/model-0008.params
+2019-05-01 04:05:35,826 [INFO]  Deleting imputer_model0/model-0008.params
+2019-05-01 04:05:35,826 [INFO]  Deleting imputer_model0/model-0008.params
+2019-05-01 04:05:35,828 [INFO]  Deleting imputer_model0/model-0015.params
+2019-05-01 04:05:35,828 [INFO]  Deleting imputer_model0/model-0015.params
+2019-05-01 04:05:35,828 [INFO]  Deleting imputer_model0/model-0015.params
+2019-05-01 04:05:35,830 [INFO]  Deleting imputer_model0/model-0002.params
+2019-05-01 04:05:35,830 [INFO]  Deleting imputer_model0/model-0002.params
+2019-05-01 04:05:35,830 [INFO]  Deleting imputer_model0/model-0002.params
+2019-05-01 04:05:35,854 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-01 04:05:35,854 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-01 04:05:35,854 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-01 04:05:35,855 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,855 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,855 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,859 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,859 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,859 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,862 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-01 04:05:35,862 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-01 04:05:35,862 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-01 04:05:35,864 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,864 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,864 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,867 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,867 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,867 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,871 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-01 04:05:35,871 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-01 04:05:35,871 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-01 04:05:35,872 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,872 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,872 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,875 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,875 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,875 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,879 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-01 04:05:35,879 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-01 04:05:35,879 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-01 04:05:35,880 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,880 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,880 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,883 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,883 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,883 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,887 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-01 04:05:35,887 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-01 04:05:35,887 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-01 04:05:35,888 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,888 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,888 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,892 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,892 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,892 [INFO]  Data Encoding - Encoded 1600 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,965 [INFO]  Data Encoding - Encoded 1600 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:35,965 [INFO]  Data Encoding - Encoded 1600 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:35,965 [INFO]  Data Encoding - Encoded 1600 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:35,968 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-01 04:05:35,968 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-01 04:05:35,968 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-01 04:05:35,970 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,970 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,970 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,975 [INFO]  Data Encoding - Encoded 1600 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,975 [INFO]  Data Encoding - Encoded 1600 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,975 [INFO]  Data Encoding - Encoded 1600 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:35,991 [INFO]  Data Encoding - Encoded 1600 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:35,991 [INFO]  Data Encoding - Encoded 1600 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:35,991 [INFO]  Data Encoding - Encoded 1600 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:35,994 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-01 04:05:35,994 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-01 04:05:35,994 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-01 04:05:35,995 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,995 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:35,995 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,000 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,000 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,000 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,003 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-01 04:05:36,003 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-01 04:05:36,003 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-01 04:05:36,005 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,005 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,005 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,008 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,008 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,008 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,012 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-01 04:05:36,012 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-01 04:05:36,012 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-01 04:05:36,013 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,013 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,013 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,017 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,017 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,017 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,020 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-01 04:05:36,020 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-01 04:05:36,020 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-01 04:05:36,022 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,022 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,022 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,025 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,025 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,025 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,029 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-01 04:05:36,029 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-01 04:05:36,029 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-01 04:05:36,030 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,030 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,030 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,033 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,033 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,033 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,037 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-01 04:05:36,037 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-01 04:05:36,037 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-01 04:05:36,038 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,038 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,038 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,042 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,042 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,042 [INFO]  Data Encoding - Encoded 1600 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,050 [INFO]  Data Encoding - Encoded 1600 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,050 [INFO]  Data Encoding - Encoded 1600 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,050 [INFO]  Data Encoding - Encoded 1600 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,054 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-01 04:05:36,054 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-01 04:05:36,054 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-01 04:05:36,055 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,055 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,055 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,058 [INFO]  Data Encoding - Encoded 1600 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,058 [INFO]  Data Encoding - Encoded 1600 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,058 [INFO]  Data Encoding - Encoded 1600 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,073 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,073 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,073 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,105 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,105 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,105 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,139 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,139 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,139 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,210 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,210 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,210 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,239 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,239 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,239 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,301 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,301 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,301 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,317 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,317 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,317 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,336 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,336 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,336 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,375 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,375 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,375 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,406 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,406 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,406 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,431 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,431 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,431 [INFO]  Data Encoding - Encoded 1600 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,435 [INFO]  Concatenating numeric columns ['NFLAG_INSURED_ON_APPROVAL'] into NFLAG_INSURED_ON_APPROVAL_numeric
+2019-05-01 04:05:36,435 [INFO]  Concatenating numeric columns ['NFLAG_INSURED_ON_APPROVAL'] into NFLAG_INSURED_ON_APPROVAL_numeric
+2019-05-01 04:05:36,435 [INFO]  Concatenating numeric columns ['NFLAG_INSURED_ON_APPROVAL'] into NFLAG_INSURED_ON_APPROVAL_numeric
+2019-05-01 04:05:36,436 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,436 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,436 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,439 [INFO]  Data Encoding - Encoded 1600 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,439 [INFO]  Data Encoding - Encoded 1600 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,439 [INFO]  Data Encoding - Encoded 1600 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,443 [INFO]  Concatenating numeric columns ['NFLAG_LAST_APPL_IN_DAY'] into NFLAG_LAST_APPL_IN_DAY_numeric
+2019-05-01 04:05:36,443 [INFO]  Concatenating numeric columns ['NFLAG_LAST_APPL_IN_DAY'] into NFLAG_LAST_APPL_IN_DAY_numeric
+2019-05-01 04:05:36,443 [INFO]  Concatenating numeric columns ['NFLAG_LAST_APPL_IN_DAY'] into NFLAG_LAST_APPL_IN_DAY_numeric
+2019-05-01 04:05:36,445 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,445 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,445 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,450 [INFO]  Data Encoding - Encoded 1600 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,450 [INFO]  Data Encoding - Encoded 1600 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,450 [INFO]  Data Encoding - Encoded 1600 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,538 [INFO]  Data Encoding - Encoded 1600 rows of column                         PRODUCT_COMBINATION with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,538 [INFO]  Data Encoding - Encoded 1600 rows of column                         PRODUCT_COMBINATION with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,538 [INFO]  Data Encoding - Encoded 1600 rows of column                         PRODUCT_COMBINATION with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,541 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-01 04:05:36,541 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-01 04:05:36,541 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-01 04:05:36,543 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,543 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,543 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,546 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,546 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,546 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,550 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIMARY'] into RATE_INTEREST_PRIMARY_numeric
+2019-05-01 04:05:36,550 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIMARY'] into RATE_INTEREST_PRIMARY_numeric
+2019-05-01 04:05:36,550 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIMARY'] into RATE_INTEREST_PRIMARY_numeric
+2019-05-01 04:05:36,551 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,551 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,551 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,554 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_INTEREST_PRIMARY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,554 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_INTEREST_PRIMARY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,554 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_INTEREST_PRIMARY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,558 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIVILEGED'] into RATE_INTEREST_PRIVILEGED_numeric
+2019-05-01 04:05:36,558 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIVILEGED'] into RATE_INTEREST_PRIVILEGED_numeric
+2019-05-01 04:05:36,558 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIVILEGED'] into RATE_INTEREST_PRIVILEGED_numeric
+2019-05-01 04:05:36,559 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,559 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,559 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,562 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_INTEREST_PRIVILEGED with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,562 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_INTEREST_PRIVILEGED with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,562 [INFO]  Data Encoding - Encoded 1600 rows of column                         RATE_INTEREST_PRIVILEGED with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,566 [INFO]  Concatenating numeric columns ['SELLERPLACE_AREA'] into SELLERPLACE_AREA_numeric
+2019-05-01 04:05:36,566 [INFO]  Concatenating numeric columns ['SELLERPLACE_AREA'] into SELLERPLACE_AREA_numeric
+2019-05-01 04:05:36,566 [INFO]  Concatenating numeric columns ['SELLERPLACE_AREA'] into SELLERPLACE_AREA_numeric
+2019-05-01 04:05:36,567 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,567 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,567 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:36,571 [INFO]  Data Encoding - Encoded 1600 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,571 [INFO]  Data Encoding - Encoded 1600 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,571 [INFO]  Data Encoding - Encoded 1600 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (1600, 1)                         and then into shape (1600, 1)
+2019-05-01 04:05:36,603 [INFO]  Data Encoding - Encoded 1600 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,603 [INFO]  Data Encoding - Encoded 1600 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,603 [INFO]  Data Encoding - Encoded 1600 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (1600, 32768)                         and then into shape (1600, 32768)
+2019-05-01 04:05:36,604 [INFO]  CategoricalEncoder encoding 1600 rows with                     17 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-01 04:05:36,604 [INFO]  CategoricalEncoder encoding 1600 rows with                     17 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-01 04:05:36,604 [INFO]  CategoricalEncoder encoding 1600 rows with                     17 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-01 04:05:36,610 [INFO]  Label Encoding - Encoded 1600 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (1600, 1) and                             then into shape (1600, 1)
+2019-05-01 04:05:36,610 [INFO]  Label Encoding - Encoded 1600 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (1600, 1) and                             then into shape (1600, 1)
+2019-05-01 04:05:36,610 [INFO]  Label Encoding - Encoded 1600 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (1600, 1) and                             then into shape (1600, 1)
+2019-05-01 04:05:48,618 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-01 04:05:48,618 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-01 04:05:48,618 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-01 04:05:48,619 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,619 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,619 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,623 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,623 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,623 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,626 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-01 04:05:48,626 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-01 04:05:48,626 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-01 04:05:48,627 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,627 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,627 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,631 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,631 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,631 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,635 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-01 04:05:48,635 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-01 04:05:48,635 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-01 04:05:48,636 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,636 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,636 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,639 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,639 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,639 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,643 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-01 04:05:48,643 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-01 04:05:48,643 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-01 04:05:48,644 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,644 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,644 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,647 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,647 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,647 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,651 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-01 04:05:48,651 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-01 04:05:48,651 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-01 04:05:48,652 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,652 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,652 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,655 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,655 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,655 [INFO]  Data Encoding - Encoded 6400 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,938 [INFO]  Data Encoding - Encoded 6400 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:48,938 [INFO]  Data Encoding - Encoded 6400 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:48,938 [INFO]  Data Encoding - Encoded 6400 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:48,942 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-01 04:05:48,942 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-01 04:05:48,942 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-01 04:05:48,943 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,943 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,943 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:48,947 [INFO]  Data Encoding - Encoded 6400 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,947 [INFO]  Data Encoding - Encoded 6400 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,947 [INFO]  Data Encoding - Encoded 6400 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:48,996 [INFO]  Data Encoding - Encoded 6400 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:48,996 [INFO]  Data Encoding - Encoded 6400 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:48,996 [INFO]  Data Encoding - Encoded 6400 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,000 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-01 04:05:49,000 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-01 04:05:49,000 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-01 04:05:49,001 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,001 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,001 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,006 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,006 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,006 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,009 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-01 04:05:49,009 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-01 04:05:49,009 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-01 04:05:49,011 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,011 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,011 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,014 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,014 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,014 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,018 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-01 04:05:49,018 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-01 04:05:49,018 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-01 04:05:49,019 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,019 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,019 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,023 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,023 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,023 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,026 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-01 04:05:49,026 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-01 04:05:49,026 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-01 04:05:49,027 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,027 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,027 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,031 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,031 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,031 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,034 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-01 04:05:49,034 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-01 04:05:49,034 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-01 04:05:49,036 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,036 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,036 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,039 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,039 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,039 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,043 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-01 04:05:49,043 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-01 04:05:49,043 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-01 04:05:49,044 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,044 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,044 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,048 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,048 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,048 [INFO]  Data Encoding - Encoded 6400 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,073 [INFO]  Data Encoding - Encoded 6400 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,073 [INFO]  Data Encoding - Encoded 6400 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,073 [INFO]  Data Encoding - Encoded 6400 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,077 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-01 04:05:49,077 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-01 04:05:49,077 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-01 04:05:49,078 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,078 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,078 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:49,082 [INFO]  Data Encoding - Encoded 6400 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,082 [INFO]  Data Encoding - Encoded 6400 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,082 [INFO]  Data Encoding - Encoded 6400 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:49,137 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,137 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,137 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,260 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,260 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,260 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,394 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,394 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,394 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,606 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,606 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,606 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,718 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,718 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,718 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,958 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,958 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:49,958 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,014 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,014 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,014 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,084 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,084 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,084 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,234 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,234 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,234 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,340 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,340 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,340 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,432 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,432 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,432 [INFO]  Data Encoding - Encoded 6400 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,436 [INFO]  Concatenating numeric columns ['NFLAG_INSURED_ON_APPROVAL'] into NFLAG_INSURED_ON_APPROVAL_numeric
+2019-05-01 04:05:50,436 [INFO]  Concatenating numeric columns ['NFLAG_INSURED_ON_APPROVAL'] into NFLAG_INSURED_ON_APPROVAL_numeric
+2019-05-01 04:05:50,436 [INFO]  Concatenating numeric columns ['NFLAG_INSURED_ON_APPROVAL'] into NFLAG_INSURED_ON_APPROVAL_numeric
+2019-05-01 04:05:50,437 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,437 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,437 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,440 [INFO]  Data Encoding - Encoded 6400 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,440 [INFO]  Data Encoding - Encoded 6400 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,440 [INFO]  Data Encoding - Encoded 6400 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,444 [INFO]  Concatenating numeric columns ['NFLAG_LAST_APPL_IN_DAY'] into NFLAG_LAST_APPL_IN_DAY_numeric
+2019-05-01 04:05:50,444 [INFO]  Concatenating numeric columns ['NFLAG_LAST_APPL_IN_DAY'] into NFLAG_LAST_APPL_IN_DAY_numeric
+2019-05-01 04:05:50,444 [INFO]  Concatenating numeric columns ['NFLAG_LAST_APPL_IN_DAY'] into NFLAG_LAST_APPL_IN_DAY_numeric
+2019-05-01 04:05:50,445 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,445 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,445 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,449 [INFO]  Data Encoding - Encoded 6400 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,449 [INFO]  Data Encoding - Encoded 6400 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,449 [INFO]  Data Encoding - Encoded 6400 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,764 [INFO]  Data Encoding - Encoded 6400 rows of column                         PRODUCT_COMBINATION with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,764 [INFO]  Data Encoding - Encoded 6400 rows of column                         PRODUCT_COMBINATION with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,764 [INFO]  Data Encoding - Encoded 6400 rows of column                         PRODUCT_COMBINATION with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,768 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-01 04:05:50,768 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-01 04:05:50,768 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-01 04:05:50,770 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,770 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,770 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,774 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,774 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,774 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,777 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIMARY'] into RATE_INTEREST_PRIMARY_numeric
+2019-05-01 04:05:50,777 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIMARY'] into RATE_INTEREST_PRIMARY_numeric
+2019-05-01 04:05:50,777 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIMARY'] into RATE_INTEREST_PRIMARY_numeric
+2019-05-01 04:05:50,778 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,778 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,778 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,782 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_INTEREST_PRIMARY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,782 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_INTEREST_PRIMARY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,782 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_INTEREST_PRIMARY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,785 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIVILEGED'] into RATE_INTEREST_PRIVILEGED_numeric
+2019-05-01 04:05:50,785 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIVILEGED'] into RATE_INTEREST_PRIVILEGED_numeric
+2019-05-01 04:05:50,785 [INFO]  Concatenating numeric columns ['RATE_INTEREST_PRIVILEGED'] into RATE_INTEREST_PRIVILEGED_numeric
+2019-05-01 04:05:50,787 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,787 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,787 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,790 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_INTEREST_PRIVILEGED with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,790 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_INTEREST_PRIVILEGED with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,790 [INFO]  Data Encoding - Encoded 6400 rows of column                         RATE_INTEREST_PRIVILEGED with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,794 [INFO]  Concatenating numeric columns ['SELLERPLACE_AREA'] into SELLERPLACE_AREA_numeric
+2019-05-01 04:05:50,794 [INFO]  Concatenating numeric columns ['SELLERPLACE_AREA'] into SELLERPLACE_AREA_numeric
+2019-05-01 04:05:50,794 [INFO]  Concatenating numeric columns ['SELLERPLACE_AREA'] into SELLERPLACE_AREA_numeric
+2019-05-01 04:05:50,795 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,795 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,795 [INFO]  Normalizing with StandardScaler
+2019-05-01 04:05:50,799 [INFO]  Data Encoding - Encoded 6400 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,799 [INFO]  Data Encoding - Encoded 6400 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,799 [INFO]  Data Encoding - Encoded 6400 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (6400, 1)                         and then into shape (6400, 1)
+2019-05-01 04:05:50,919 [INFO]  Data Encoding - Encoded 6400 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,919 [INFO]  Data Encoding - Encoded 6400 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,919 [INFO]  Data Encoding - Encoded 6400 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (6400, 32768)                         and then into shape (6400, 32768)
+2019-05-01 04:05:50,920 [INFO]  CategoricalEncoder encoding 6400 rows with                     17 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-01 04:05:50,920 [INFO]  CategoricalEncoder encoding 6400 rows with                     17 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-01 04:05:50,920 [INFO]  CategoricalEncoder encoding 6400 rows with                     17 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-01 04:05:50,930 [INFO]  Label Encoding - Encoded 6400 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (6400, 1) and                             then into shape (6400, 1)
+2019-05-01 04:05:50,930 [INFO]  Label Encoding - Encoded 6400 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (6400, 1) and                             then into shape (6400, 1)
+2019-05-01 04:05:50,930 [INFO]  Label Encoding - Encoded 6400 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (6400, 1) and                             then into shape (6400, 1)
+2019-05-01 14:39:54,291 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 14:39:54,291 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 14:39:54,291 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-01 14:39:54,294 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 14:39:54,294 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 14:39:54,294 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-01 14:39:54,296 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 14:39:54,296 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 14:39:54,296 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-01 14:39:54,299 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 14:39:54,299 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-01 14:39:54,299 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.

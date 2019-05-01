@@ -2,6 +2,12 @@
   "nodes": [
     {
       "op": "null", 
+      "name": "NAME_CONTRACT_TYPE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
       "name": "AMT_ANNUITY_numeric", 
       "inputs": []
     }, 
@@ -21,13 +27,13 @@
       "op": "FullyConnected", 
       "name": "AMT_ANNUITY_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[0, 0, 0], [1, 0, 0], [2, 0, 0]]
+      "inputs": [[1, 0, 0], [2, 0, 0], [3, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "AMT_ANNUITY_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[3, 0, 0]]
+      "inputs": [[4, 0, 0]]
     }, 
     {
       "op": "null", 
@@ -50,13 +56,13 @@
       "op": "FullyConnected", 
       "name": "AMT_APPLICATION_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[5, 0, 0], [6, 0, 0], [7, 0, 0]]
+      "inputs": [[6, 0, 0], [7, 0, 0], [8, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "AMT_APPLICATION_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[8, 0, 0]]
+      "inputs": [[9, 0, 0]]
     }, 
     {
       "op": "null", 
@@ -79,13 +85,13 @@
       "op": "FullyConnected", 
       "name": "AMT_CREDIT_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[10, 0, 0], [11, 0, 0], [12, 0, 0]]
+      "inputs": [[11, 0, 0], [12, 0, 0], [13, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "AMT_CREDIT_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[13, 0, 0]]
+      "inputs": [[14, 0, 0]]
     }, 
     {
       "op": "null", 
@@ -108,13 +114,13 @@
       "op": "FullyConnected", 
       "name": "AMT_DOWN_PAYMENT_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[15, 0, 0], [16, 0, 0], [17, 0, 0]]
+      "inputs": [[16, 0, 0], [17, 0, 0], [18, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "AMT_DOWN_PAYMENT_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[18, 0, 0]]
+      "inputs": [[19, 0, 0]]
     }, 
     {
       "op": "null", 
@@ -137,232 +143,17 @@
       "op": "FullyConnected", 
       "name": "AMT_GOODS_PRICE_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[20, 0, 0], [21, 0, 0], [22, 0, 0]]
+      "inputs": [[21, 0, 0], [22, 0, 0], [23, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "AMT_GOODS_PRICE_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[23, 0, 0]]
+      "inputs": [[24, 0, 0]]
     }, 
     {
       "op": "null", 
-      "name": "CHANNEL_TYPE_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "CNT_PAYMENT_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "CNT_PAYMENT_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "CNT_PAYMENT_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "CNT_PAYMENT_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[26, 0, 0], [27, 0, 0], [28, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "CNT_PAYMENT_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[29, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "CODE_REJECT_REASON_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_DECISION_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_DECISION_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_DECISION_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "DAYS_DECISION_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[32, 0, 0], [33, 0, 0], [34, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "DAYS_DECISION_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[35, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_FIRST_DRAWING_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_FIRST_DRAWING_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_FIRST_DRAWING_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "DAYS_FIRST_DRAWING_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[37, 0, 0], [38, 0, 0], [39, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "DAYS_FIRST_DRAWING_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[40, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_FIRST_DUE_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_FIRST_DUE_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_FIRST_DUE_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "DAYS_FIRST_DUE_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[42, 0, 0], [43, 0, 0], [44, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "DAYS_FIRST_DUE_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[45, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_LAST_DUE_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_LAST_DUE_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_LAST_DUE_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "DAYS_LAST_DUE_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[47, 0, 0], [48, 0, 0], [49, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "DAYS_LAST_DUE_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[50, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[52, 0, 0], [53, 0, 0], [54, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[55, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_TERMINATION_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_TERMINATION_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "DAYS_TERMINATION_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "DAYS_TERMINATION_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[57, 0, 0], [58, 0, 0], [59, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "DAYS_TERMINATION_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[60, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "FLAG_LAST_APPL_PER_CONTRACT_chars", 
+      "name": "WEEKDAY_APPR_PROCESS_START_chars", 
       "attrs": {"__storage_type__": "2"}, 
       "inputs": []
     }, 
@@ -387,141 +178,23 @@
       "op": "FullyConnected", 
       "name": "HOUR_APPR_PROCESS_START_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[63, 0, 0], [64, 0, 0], [65, 0, 0]]
+      "inputs": [[27, 0, 0], [28, 0, 0], [29, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "HOUR_APPR_PROCESS_START_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[66, 0, 0]]
+      "inputs": [[30, 0, 0]]
     }, 
     {
       "op": "null", 
-      "name": "NAME_CASH_LOAN_PURPOSE_chars", 
+      "name": "FLAG_LAST_APPL_PER_CONTRACT_chars", 
       "attrs": {"__storage_type__": "2"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
-      "name": "NAME_CLIENT_TYPE_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_CONTRACT_STATUS_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_CONTRACT_TYPE_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_GOODS_CATEGORY_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_PAYMENT_TYPE_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_PORTFOLIO_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_PRODUCT_TYPE_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_SELLER_INDUSTRY_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_TYPE_SUITE_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NAME_YIELD_GROUP_chars", 
-      "attrs": {"__storage_type__": "2"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NFLAG_INSURED_ON_APPROVAL_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NFLAG_INSURED_ON_APPROVAL_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NFLAG_INSURED_ON_APPROVAL_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "NFLAG_INSURED_ON_APPROVAL_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[79, 0, 0], [80, 0, 0], [81, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "NFLAG_INSURED_ON_APPROVAL_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[82, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "NFLAG_LAST_APPL_IN_DAY_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NFLAG_LAST_APPL_IN_DAY_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "NFLAG_LAST_APPL_IN_DAY_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "NFLAG_LAST_APPL_IN_DAY_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[84, 0, 0], [85, 0, 0], [86, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "NFLAG_LAST_APPL_IN_DAY_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[87, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "PRODUCT_COMBINATION_chars", 
+      "name": "NFLAG_LAST_APPL_IN_DAY_chars", 
       "attrs": {"__storage_type__": "2"}, 
       "inputs": []
     }, 
@@ -546,174 +219,372 @@
       "op": "FullyConnected", 
       "name": "RATE_DOWN_PAYMENT_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[90, 0, 0], [91, 0, 0], [92, 0, 0]]
+      "inputs": [[34, 0, 0], [35, 0, 0], [36, 0, 0]]
     }, 
     {
       "op": "Activation", 
       "name": "RATE_DOWN_PAYMENT_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[93, 0, 0]]
+      "inputs": [[37, 0, 0]]
     }, 
     {
       "op": "null", 
-      "name": "RATE_INTEREST_PRIMARY_numeric", 
+      "name": "NAME_CASH_LOAN_PURPOSE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
-      "name": "RATE_INTEREST_PRIMARY_numeric_fullyconnected0_weight", 
+      "name": "NAME_CONTRACT_STATUS_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_DECISION_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_DECISION_numeric_fullyconnected0_weight", 
       "attrs": {"num_hidden": "10"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
-      "name": "RATE_INTEREST_PRIMARY_numeric_fullyconnected0_bias", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "FullyConnected", 
-      "name": "RATE_INTEREST_PRIMARY_numeric_fullyconnected0", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": [[95, 0, 0], [96, 0, 0], [97, 0, 0]]
-    }, 
-    {
-      "op": "Activation", 
-      "name": "RATE_INTEREST_PRIMARY_numeric_activation0", 
-      "attrs": {"act_type": "relu"}, 
-      "inputs": [[98, 0, 0]]
-    }, 
-    {
-      "op": "null", 
-      "name": "RATE_INTEREST_PRIVILEGED_numeric", 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "RATE_INTEREST_PRIVILEGED_numeric_fullyconnected0_weight", 
-      "attrs": {"num_hidden": "10"}, 
-      "inputs": []
-    }, 
-    {
-      "op": "null", 
-      "name": "RATE_INTEREST_PRIVILEGED_numeric_fullyconnected0_bias", 
+      "name": "DAYS_DECISION_numeric_fullyconnected0_bias", 
       "attrs": {"num_hidden": "10"}, 
       "inputs": []
     }, 
     {
       "op": "FullyConnected", 
-      "name": "RATE_INTEREST_PRIVILEGED_numeric_fullyconnected0", 
+      "name": "DAYS_DECISION_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[100, 0, 0], [101, 0, 0], [102, 0, 0]]
+      "inputs": [[41, 0, 0], [42, 0, 0], [43, 0, 0]]
     }, 
     {
       "op": "Activation", 
-      "name": "RATE_INTEREST_PRIVILEGED_numeric_activation0", 
+      "name": "DAYS_DECISION_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[103, 0, 0]]
+      "inputs": [[44, 0, 0]]
     }, 
     {
       "op": "null", 
-      "name": "SELLERPLACE_AREA_numeric", 
+      "name": "NAME_PAYMENT_TYPE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
-      "name": "SELLERPLACE_AREA_numeric_fullyconnected0_weight", 
+      "name": "CODE_REJECT_REASON_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "NAME_TYPE_SUITE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "NAME_CLIENT_TYPE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "NAME_GOODS_CATEGORY_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "NAME_PORTFOLIO_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "NAME_PRODUCT_TYPE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CHANNEL_TYPE_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "SELLERPLACE_AREA_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "NAME_SELLER_INDUSTRY_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNT_PAYMENT_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNT_PAYMENT_numeric_fullyconnected0_weight", 
       "attrs": {"num_hidden": "10"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
-      "name": "SELLERPLACE_AREA_numeric_fullyconnected0_bias", 
+      "name": "CNT_PAYMENT_numeric_fullyconnected0_bias", 
       "attrs": {"num_hidden": "10"}, 
       "inputs": []
     }, 
     {
       "op": "FullyConnected", 
-      "name": "SELLERPLACE_AREA_numeric_fullyconnected0", 
+      "name": "CNT_PAYMENT_numeric_fullyconnected0", 
       "attrs": {"num_hidden": "10"}, 
-      "inputs": [[105, 0, 0], [106, 0, 0], [107, 0, 0]]
+      "inputs": [[56, 0, 0], [57, 0, 0], [58, 0, 0]]
     }, 
     {
       "op": "Activation", 
-      "name": "SELLERPLACE_AREA_numeric_activation0", 
+      "name": "CNT_PAYMENT_numeric_activation0", 
       "attrs": {"act_type": "relu"}, 
-      "inputs": [[108, 0, 0]]
+      "inputs": [[59, 0, 0]]
     }, 
     {
       "op": "null", 
-      "name": "WEEKDAY_APPR_PROCESS_START_chars", 
+      "name": "NAME_YIELD_GROUP_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "PRODUCT_COMBINATION_chars", 
+      "attrs": {"__storage_type__": "2"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_FIRST_DRAWING_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_FIRST_DRAWING_numeric_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_FIRST_DRAWING_numeric_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "DAYS_FIRST_DRAWING_numeric_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[63, 0, 0], [64, 0, 0], [65, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "DAYS_FIRST_DRAWING_numeric_activation0", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[66, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_FIRST_DUE_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_FIRST_DUE_numeric_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_FIRST_DUE_numeric_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "DAYS_FIRST_DUE_numeric_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[68, 0, 0], [69, 0, 0], [70, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "DAYS_FIRST_DUE_numeric_activation0", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[71, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[73, 0, 0], [74, 0, 0], [75, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "DAYS_LAST_DUE_1ST_VERSION_numeric_activation0", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[76, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_LAST_DUE_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_LAST_DUE_numeric_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_LAST_DUE_numeric_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "DAYS_LAST_DUE_numeric_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[78, 0, 0], [79, 0, 0], [80, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "DAYS_LAST_DUE_numeric_activation0", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[81, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_TERMINATION_numeric", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_TERMINATION_numeric_fullyconnected0_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "DAYS_TERMINATION_numeric_fullyconnected0_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "DAYS_TERMINATION_numeric_fullyconnected0", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[83, 0, 0], [84, 0, 0], [85, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "DAYS_TERMINATION_numeric_activation0", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[86, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "NFLAG_INSURED_ON_APPROVAL_chars", 
       "attrs": {"__storage_type__": "2"}, 
       "inputs": []
     }, 
     {
       "op": "Concat", 
-      "name": "concat1", 
+      "name": "concat0", 
       "attrs": {
         "dim": "1", 
-        "num_args": "35"
+        "num_args": "33"
       }, 
       "inputs": [
-        [4, 0, 0], 
-        [9, 0, 0], 
-        [14, 0, 0], 
-        [19, 0, 0], 
-        [24, 0, 0], 
+        [0, 0, 0], 
+        [5, 0, 0], 
+        [10, 0, 0], 
+        [15, 0, 0], 
+        [20, 0, 0], 
         [25, 0, 0], 
-        [30, 0, 0], 
+        [26, 0, 0], 
         [31, 0, 0], 
-        [36, 0, 0], 
-        [41, 0, 0], 
+        [32, 0, 0], 
+        [33, 0, 0], 
+        [38, 0, 0], 
+        [39, 0, 0], 
+        [40, 0, 0], 
+        [45, 0, 0], 
         [46, 0, 0], 
+        [47, 0, 0], 
+        [48, 0, 0], 
+        [49, 0, 0], 
+        [50, 0, 0], 
         [51, 0, 0], 
-        [56, 0, 0], 
+        [52, 0, 0], 
+        [53, 0, 0], 
+        [54, 0, 0], 
+        [55, 0, 0], 
+        [60, 0, 0], 
         [61, 0, 0], 
         [62, 0, 0], 
         [67, 0, 0], 
-        [68, 0, 0], 
-        [69, 0, 0], 
-        [70, 0, 0], 
-        [71, 0, 0], 
         [72, 0, 0], 
-        [73, 0, 0], 
-        [74, 0, 0], 
-        [75, 0, 0], 
-        [76, 0, 0], 
         [77, 0, 0], 
-        [78, 0, 0], 
-        [83, 0, 0], 
-        [88, 0, 0], 
-        [89, 0, 0], 
-        [94, 0, 0], 
-        [99, 0, 0], 
-        [104, 0, 0], 
-        [109, 0, 0], 
-        [110, 0, 0]
+        [82, 0, 0], 
+        [87, 0, 0], 
+        [88, 0, 0]
       ]
     }, 
     {
       "op": "null", 
       "name": "label_PRODUCT_COMBINATION_weight", 
-      "attrs": {"num_hidden": "18"}, 
+      "attrs": {"num_hidden": "13"}, 
       "inputs": []
     }, 
     {
       "op": "null", 
       "name": "label_PRODUCT_COMBINATION_bias", 
-      "attrs": {"num_hidden": "18"}, 
+      "attrs": {"num_hidden": "13"}, 
       "inputs": []
     }, 
     {
       "op": "FullyConnected", 
       "name": "label_PRODUCT_COMBINATION", 
-      "attrs": {"num_hidden": "18"}, 
-      "inputs": [[111, 0, 0], [112, 0, 0], [113, 0, 0]]
+      "attrs": {"num_hidden": "13"}, 
+      "inputs": [[89, 0, 0], [90, 0, 0], [91, 0, 0]]
     }, 
     {
       "op": "log_softmax", 
-      "name": "log_softmax1", 
-      "inputs": [[114, 0, 0]]
+      "name": "log_softmax0", 
+      "inputs": [[92, 0, 0]]
     }, 
     {
       "op": "null", 
@@ -722,197 +593,203 @@
     }, 
     {
       "op": "_mul_scalar", 
-      "name": "_mulscalar2", 
+      "name": "_mulscalar0", 
       "attrs": {"scalar": "0.0"}, 
-      "inputs": [[116, 0, 0]]
+      "inputs": [[94, 0, 0]]
     }, 
     {
       "op": "_plus_scalar", 
-      "name": "_plusscalar3", 
-      "attrs": {"scalar": "18"}, 
-      "inputs": [[117, 0, 0]]
+      "name": "_plusscalar0", 
+      "attrs": {"scalar": "13"}, 
+      "inputs": [[95, 0, 0]]
     }, 
     {
       "op": "broadcast_lesser", 
-      "name": "broadcast_lesser1", 
-      "inputs": [[116, 0, 0], [118, 0, 0]]
+      "name": "broadcast_lesser0", 
+      "inputs": [[94, 0, 0], [96, 0, 0]]
     }, 
     {
       "op": "elemwise_mul", 
-      "name": "_mul2", 
-      "inputs": [[116, 0, 0], [119, 0, 0]]
+      "name": "_mul0", 
+      "inputs": [[94, 0, 0], [97, 0, 0]]
     }, 
     {
       "op": "SliceChannel", 
-      "name": "split1", 
+      "name": "split0", 
       "attrs": {
         "axis": "1", 
         "num_outputs": "1", 
         "squeeze_axis": "1"
       }, 
-      "inputs": [[120, 0, 0]]
+      "inputs": [[98, 0, 0]]
     }, 
     {
       "op": "pick", 
-      "name": "pick1", 
-      "inputs": [[115, 0, 0], [121, 0, 0]]
+      "name": "pick0", 
+      "inputs": [[93, 0, 0], [99, 0, 0]]
     }, 
     {
       "op": "_mul_scalar", 
-      "name": "_mulscalar3", 
+      "name": "_mulscalar1", 
       "attrs": {"scalar": "-1"}, 
-      "inputs": [[122, 0, 0]]
+      "inputs": [[100, 0, 0]]
     }, 
     {
       "op": "zeros_like", 
-      "name": "zeros_like1", 
-      "inputs": [[121, 0, 0]]
+      "name": "zeros_like0", 
+      "inputs": [[99, 0, 0]]
     }, 
     {
       "op": "broadcast_greater", 
-      "name": "broadcast_greater1", 
-      "inputs": [[121, 0, 0], [124, 0, 0]]
+      "name": "broadcast_greater0", 
+      "inputs": [[99, 0, 0], [102, 0, 0]]
     }, 
     {
       "op": "elemwise_mul", 
-      "name": "_mul3", 
-      "inputs": [[123, 0, 0], [125, 0, 0]]
+      "name": "_mul1", 
+      "inputs": [[101, 0, 0], [103, 0, 0]]
     }, 
     {
       "op": "sum", 
-      "name": "sum2", 
-      "inputs": [[125, 0, 0]]
+      "name": "sum0", 
+      "inputs": [[103, 0, 0]]
     }, 
     {
       "op": "_plus_scalar", 
-      "name": "_plusscalar4", 
+      "name": "_plusscalar1", 
       "attrs": {"scalar": "1.0"}, 
-      "inputs": [[127, 0, 0]]
+      "inputs": [[105, 0, 0]]
     }, 
     {
       "op": "broadcast_div", 
-      "name": "broadcast_div2", 
-      "inputs": [[126, 0, 0], [128, 0, 0]]
+      "name": "broadcast_div0", 
+      "inputs": [[104, 0, 0], [106, 0, 0]]
     }, 
     {
       "op": "ones_like", 
-      "name": "ones_like1", 
-      "inputs": [[121, 0, 0]]
+      "name": "ones_like0", 
+      "inputs": [[99, 0, 0]]
     }, 
     {
       "op": "sum", 
-      "name": "sum3", 
-      "inputs": [[130, 0, 0]]
+      "name": "sum1", 
+      "inputs": [[108, 0, 0]]
     }, 
     {
       "op": "broadcast_mul", 
-      "name": "broadcast_mul2", 
-      "inputs": [[129, 0, 0], [131, 0, 0]]
+      "name": "broadcast_mul0", 
+      "inputs": [[107, 0, 0], [109, 0, 0]]
     }, 
     {
       "op": "mean", 
-      "name": "mean1", 
-      "inputs": [[132, 0, 0]]
+      "name": "mean0", 
+      "inputs": [[110, 0, 0]]
     }, 
     {
       "op": "_plus_scalar", 
-      "name": "_plusscalar5", 
+      "name": "_plusscalar2", 
       "attrs": {"scalar": "1e-05"}, 
-      "inputs": [[133, 0, 0]]
+      "inputs": [[111, 0, 0]]
     }, 
     {
       "op": "broadcast_div", 
-      "name": "broadcast_div3", 
-      "inputs": [[132, 0, 0], [134, 0, 0]]
+      "name": "broadcast_div1", 
+      "inputs": [[110, 0, 0], [112, 0, 0]]
     }, 
     {
       "op": "add_n", 
-      "name": "elementwisesum3", 
+      "name": "elementwisesum1", 
       "attrs": {"num_args": "1"}, 
-      "inputs": [[135, 0, 0]]
+      "inputs": [[113, 0, 0]]
     }, 
     {
       "op": "_div_scalar", 
-      "name": "_divscalar3", 
+      "name": "_divscalar1", 
       "attrs": {"scalar": "1.0"}, 
-      "inputs": [[136, 0, 0]]
+      "inputs": [[114, 0, 0]]
     }, 
     {
       "op": "add_n", 
-      "name": "elementwisesum2", 
+      "name": "elementwisesum0", 
       "attrs": {"num_args": "1"}, 
-      "inputs": [[134, 0, 0]]
+      "inputs": [[112, 0, 0]]
     }, 
     {
       "op": "_div_scalar", 
-      "name": "_divscalar2", 
+      "name": "_divscalar0", 
       "attrs": {"scalar": "1.0"}, 
-      "inputs": [[138, 0, 0]]
+      "inputs": [[116, 0, 0]]
     }, 
     {
       "op": "broadcast_mul", 
-      "name": "broadcast_mul3", 
-      "inputs": [[137, 0, 0], [139, 0, 0]]
+      "name": "broadcast_mul1", 
+      "inputs": [[115, 0, 0], [117, 0, 0]]
     }, 
     {
       "op": "MakeLoss", 
-      "name": "makeloss1", 
+      "name": "makeloss0", 
       "attrs": {
         "normalization": "valid", 
         "valid_thresh": "1e-06"
       }, 
-      "inputs": [[140, 0, 0]]
+      "inputs": [[118, 0, 0]]
     }, 
     {
       "op": "softmax", 
-      "name": "softmax1", 
-      "inputs": [[114, 0, 0]]
+      "name": "softmax0", 
+      "inputs": [[92, 0, 0]]
     }, 
     {
       "op": "BlockGrad", 
       "name": "pred-PRODUCT_COMBINATION", 
-      "inputs": [[142, 0, 0]]
+      "inputs": [[120, 0, 0]]
     }
   ], 
   "arg_nodes": [
     0, 
     1, 
     2, 
-    5, 
+    3, 
     6, 
     7, 
-    10, 
+    8, 
     11, 
     12, 
-    15, 
+    13, 
     16, 
     17, 
-    20, 
+    18, 
     21, 
     22, 
-    25, 
+    23, 
     26, 
     27, 
     28, 
-    31, 
+    29, 
     32, 
     33, 
     34, 
-    37, 
-    38, 
+    35, 
+    36, 
     39, 
+    40, 
+    41, 
     42, 
     43, 
-    44, 
+    46, 
     47, 
     48, 
     49, 
+    50, 
+    51, 
     52, 
     53, 
     54, 
+    55, 
+    56, 
     57, 
     58, 
-    59, 
+    61, 
     62, 
     63, 
     64, 
@@ -920,37 +797,19 @@
     68, 
     69, 
     70, 
-    71, 
-    72, 
     73, 
     74, 
     75, 
-    76, 
-    77, 
     78, 
     79, 
     80, 
-    81, 
+    83, 
     84, 
     85, 
-    86, 
-    89, 
+    88, 
     90, 
     91, 
-    92, 
-    95, 
-    96, 
-    97, 
-    100, 
-    101, 
-    102, 
-    105, 
-    106, 
-    107, 
-    110, 
-    112, 
-    113, 
-    116
+    94
   ], 
   "node_row_ptr": [
     0, 
@@ -1075,30 +934,8 @@
     119, 
     120, 
     121, 
-    122, 
-    123, 
-    124, 
-    125, 
-    126, 
-    127, 
-    128, 
-    129, 
-    130, 
-    131, 
-    132, 
-    133, 
-    134, 
-    135, 
-    136, 
-    137, 
-    138, 
-    139, 
-    140, 
-    141, 
-    142, 
-    143, 
-    144
+    122
   ], 
-  "heads": [[141, 0, 0], [143, 0, 0]], 
+  "heads": [[119, 0, 0], [121, 0, 0]], 
   "attrs": {"mxnet_version": ["int", 10400]}
 }
