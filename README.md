@@ -1,6 +1,5 @@
 
  * Part 1: Setup 
-    * Jupyter Server -- Binder 
     * Jupyter Extensions -- Scratchpad ...
     * Overview Data Set
     * Data Repository -- Quilt
