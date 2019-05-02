@@ -1,5 +1,6 @@
 
  * Part 1: Setup 
+    * Jupyter Server -- Binder 
     * Jupyter Extensions -- Scratchpad ...
     * Overview Data Set
     * Data Repository -- Quilt
@@ -11,11 +12,13 @@
 ** --------- Choose Your Topic ------------    
 
 * Part 3: Strategy for Missing Data
-    * Probabilistic Imputation -- DataWig
-    * KNN Imputation -- Impuyte
+    * Categorical Imputation -- DataWig
+    * Numerical Imputation -- Impuyte
     * Dicussion 
     
-* Part 4: Automated Feature Engineering -- Featuretools  
+* Part 4: Feature Engineering
+    * Generating Features Automatically -- Featuretools 
+    * Feature Selection
 
 * Part 5: Piplelines
     * Feature Union
@@ -25,7 +28,7 @@
     * Reshape Exercises 
     * Groupby
 
-* Part 7: Time Series: Interactive Visualizaton
+* Part 7: Interactive Visualizaton
     * Plotly
     * Bokeh
     * Altair
