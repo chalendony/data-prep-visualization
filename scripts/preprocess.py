@@ -45,3 +45,4 @@ def as_dict(df):
     # convert to dict
     tuples = dict([*zip(df.Row.values, df.Type.values)])
     return tuples
+
