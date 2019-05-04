@@ -16,22 +16,6 @@ def percent_missing(df, cols):
     return missing_application_train_data.loc[cols].sort_values(ascending=False, by='Perc_Missing')
 
 
-def align_dataframes(frames):
-    aligned = {}
-    lst = [*frames.keys()]
-    # omit self and tables with no foreign key in parent
-    omit = ['application_train', 'bureau_balance']
-    keep = [l for l in lst if l not in (omit)]
-    parent = frames['application_train'].SK_ID_CURR
-    for key in keep:
-        child = frames[key].SK_ID_CURR
-        aligned[key] = frames[key][(child.isin(parent))]  # avoid chaining and use loc
-
-    aligned['application_train'] = frames['application_train'].copy(deep=True)
-    aligned['bureau_balance'] = frames['bureau_balance'].copy(deep=True)
-    return aligned
-
-
 
 
 def as_dict(df):

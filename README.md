@@ -30,4 +30,4 @@
 * Part 7: Interactive Visualizaton
     * Plotly
     * Bokeh
-    * Altair
+    
