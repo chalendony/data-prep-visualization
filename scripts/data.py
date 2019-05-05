@@ -1,6 +1,31 @@
 import pandas as pd
 from quilt.data.avare import homecredit
 
+# create an entity set
+es = ft.EntitySet(id="homecredit_data")
+
+
+def as_dict_featuretools(df):
+    '''
+    Helper function :  create a dictionary from a dataframe
+
+    :param df:
+    :return:
+    '''
+    # df has two columns: Row(column name) Type (a python dtype)
+    # categorical = 'object'
+    # numeric = 'float64'
+
+    ################ since it infers, i can leave the python types and not perform this replace as well
+    # rename types
+    # df.replace(numeric, ft.variable_types.Numeric, inplace=True)
+    # df.replace(categorical, ft.variable_types.Categorical, inplace=True)
+
+    # convert to dict
+    tuples = dict([*zip(df.Row.values, df.Type.values)])
+    return tuples
+
+
 def create_new_data_description():
     #### why cant i  persistance my data types!!!
     # 1) rename types in data description to python types,
