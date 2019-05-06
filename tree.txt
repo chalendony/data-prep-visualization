@@ -4,6 +4,7 @@
 ├── Automated\ Feature\ Engineering\ with\ Featuretools.ipynb
 ├── Cleansing\ the\ Data.ipynb
 ├── Data\ Preparation\ and\ Visualization.ipynb
+├── Dropping\ Columns\ to\ Handle\ Missing\ Data.ipynb
 ├── Groupby.ipynb
 ├── Impute\ Categorical\ with\ DataWig.ipynb
 ├── Indexing\ Dataframes.ipynb
@@ -14,38 +15,10 @@
 ├── Reshaping\ Dataframes\ Exercises.ipynb
 ├── Reshaping\ Dataframes\ Exercises.slides.html
 ├── data
-│   ├── HomeCredit_columns_description.txt
-│   ├── HomeCredit_columns_description.xlsx
-│   ├── imputer_model
-│   ├── imputer_model0
-│   ├── new_data_description_file.csv
-│   ├── produkt_tu_stunde_19510101_20171231_00662.txt
-│   ├── raw.data
-│   └── ~$HomeCredit_columns_description.xlsx
 ├── data-prep-env
-│   ├── bin
-│   ├── etc
-│   ├── include
-│   ├── lib
-│   ├── pyvenv.cfg
-│   └── share
 ├── images
-│   ├── evolution-xgboost.jpeg
-│   ├── featuretools.jpg
-│   ├── featuretools.png
-│   ├── featuretools.pptx
-│   ├── home_credit.png
-│   ├── merge-commands.png
-│   ├── pipeline_example.jpg
-│   ├── why-xgboost-performs-well.png
-│   └── workshop_env.png
 ├── requirements.txt
 ├── scripts
-│   ├── __init__.py
-│   ├── __pycache__
-│   ├── data.py
-│   ├── plot.py
-│   └── preprocess.py
 └── tree.txt
 
-12 directories, 36 files
+4 directories, 17 files
