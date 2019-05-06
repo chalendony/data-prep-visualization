@@ -5,3 +5,4 @@ DataWig - A First Look.ipynb
 .DS_Store
 __init__.py
 scripts/__pycache__/
+tree.txt
