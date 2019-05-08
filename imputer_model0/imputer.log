@@ -1,0 +1,533 @@
+2019-05-08 10:28:10,512 [INFO]  Using [[cpu(0)]] as the context for training
+2019-05-08 10:28:10,514 [INFO]  Fitting label encoder <class 'datawig.column_encoders.CategoricalEncoder'> on 640 rows                             of training data
+2019-05-08 10:28:10,523 [INFO]  12 most often encountered discrete values:                      ['POS household with interest' 'POS mobile with interest'
+ 'POS industry with interest' 'POS household without interest'
+ 'Cash Street: high' 'POS other with interest' 'Cash X-Sell: high'
+ 'POS industry without interest' 'Cash X-Sell: middle'
+ 'POS mobile without interest' 'Cash Street: middle' 'Cash X-Sell: low']
+2019-05-08 10:28:10,525 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 96 occurrences of value POS industry with interest
+2019-05-08 10:28:10,526 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 79 occurrences of value POS household without interest
+2019-05-08 10:28:10,528 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 19 occurrences of value Cash Street: high
+2019-05-08 10:28:10,530 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 17 occurrences of value POS other with interest
+2019-05-08 10:28:10,534 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 10 occurrences of value Cash X-Sell: high
+2019-05-08 10:28:10,536 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 6 occurrences of value POS industry without interest
+2019-05-08 10:28:10,538 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 4 occurrences of value Cash X-Sell: middle
+2019-05-08 10:28:10,539 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 3 occurrences of value POS mobile without interest
+2019-05-08 10:28:10,541 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 3 occurrences of value Cash Street: middle
+2019-05-08 10:28:10,543 [WARNING]  CategoricalEncoder for column PRODUCT_COMBINATION                                found only 2 occurrences of value Cash X-Sell: low
+2019-05-08 10:28:10,547 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-08 10:28:10,549 [INFO]  Dropping 0/640 rows
+2019-05-08 10:28:10,555 [INFO]  Detected 0 rows with missing labels                         for column PRODUCT_COMBINATION
+2019-05-08 10:28:10,557 [INFO]  Dropping 0/160 rows
+2019-05-08 10:28:10,560 [INFO]  Train: 640, Test: 160
+2019-05-08 10:28:10,562 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_ANNUITY and 640 rows of training data with parameters {'input_columns': ['AMT_ANNUITY'], 'output_column': 'AMT_ANNUITY_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,578 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_APPLICATION and 640 rows of training data with parameters {'input_columns': ['AMT_APPLICATION'], 'output_column': 'AMT_APPLICATION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,589 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_CREDIT and 640 rows of training data with parameters {'input_columns': ['AMT_CREDIT'], 'output_column': 'AMT_CREDIT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,598 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_DOWN_PAYMENT and 640 rows of training data with parameters {'input_columns': ['AMT_DOWN_PAYMENT'], 'output_column': 'AMT_DOWN_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,606 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns AMT_GOODS_PRICE and 640 rows of training data with parameters {'input_columns': ['AMT_GOODS_PRICE'], 'output_column': 'AMT_GOODS_PRICE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,612 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns HOUR_APPR_PROCESS_START and 640 rows of training data with parameters {'input_columns': ['HOUR_APPR_PROCESS_START'], 'output_column': 'HOUR_APPR_PROCESS_START_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,620 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns RATE_DOWN_PAYMENT and 640 rows of training data with parameters {'input_columns': ['RATE_DOWN_PAYMENT'], 'output_column': 'RATE_DOWN_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,626 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_DECISION and 640 rows of training data with parameters {'input_columns': ['DAYS_DECISION'], 'output_column': 'DAYS_DECISION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,634 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns CNT_PAYMENT and 640 rows of training data with parameters {'input_columns': ['CNT_PAYMENT'], 'output_column': 'CNT_PAYMENT_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,647 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_FIRST_DRAWING and 640 rows of training data with parameters {'input_columns': ['DAYS_FIRST_DRAWING'], 'output_column': 'DAYS_FIRST_DRAWING_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,657 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_FIRST_DUE and 640 rows of training data with parameters {'input_columns': ['DAYS_FIRST_DUE'], 'output_column': 'DAYS_FIRST_DUE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,665 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_LAST_DUE_1ST_VERSION and 640 rows of training data with parameters {'input_columns': ['DAYS_LAST_DUE_1ST_VERSION'], 'output_column': 'DAYS_LAST_DUE_1ST_VERSION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,679 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_LAST_DUE and 640 rows of training data with parameters {'input_columns': ['DAYS_LAST_DUE'], 'output_column': 'DAYS_LAST_DUE_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,686 [INFO]  Fitting data encoder <class 'datawig.column_encoders.NumericalEncoder'> on columns DAYS_TERMINATION and 640 rows of training data with parameters {'input_columns': ['DAYS_TERMINATION'], 'output_column': 'DAYS_TERMINATION_numeric', 'output_dim': 1, 'normalize': True, 'scaler': None}
+2019-05-08 10:28:10,693 [INFO]  Building Train Iterator with 640 elements
+2019-05-08 10:28:10,763 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:10,767 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-08 10:28:10,768 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,775 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,778 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-08 10:28:10,779 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,785 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,790 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-08 10:28:10,791 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,794 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,802 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-08 10:28:10,803 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,810 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,814 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-08 10:28:10,815 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,822 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,843 [INFO]  Data Encoding - Encoded 640 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:10,846 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-08 10:28:10,847 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,853 [INFO]  Data Encoding - Encoded 640 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,862 [INFO]  Data Encoding - Encoded 640 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:10,874 [INFO]  Data Encoding - Encoded 640 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:10,881 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-08 10:28:10,884 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,892 [INFO]  Data Encoding - Encoded 640 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,901 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:10,920 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:10,923 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-08 10:28:10,925 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:10,929 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:10,994 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,017 [INFO]  Data Encoding - Encoded 640 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,044 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,082 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,109 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,121 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,132 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,162 [INFO]  Data Encoding - Encoded 640 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,177 [INFO]  Data Encoding - Encoded 640 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,214 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,219 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-08 10:28:11,220 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,224 [INFO]  Data Encoding - Encoded 640 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:11,238 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,242 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-08 10:28:11,243 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,248 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:11,254 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-08 10:28:11,257 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,261 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:11,265 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-08 10:28:11,266 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,272 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:11,278 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-08 10:28:11,280 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,284 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:11,288 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-08 10:28:11,289 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,293 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:28:11,315 [INFO]  Data Encoding - Encoded 640 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:28:11,319 [INFO]  CategoricalEncoder encoding 640 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-08 10:28:11,330 [INFO]  Label Encoding - Encoded 640 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (640, 1) and                             then into shape (640, 1)
+2019-05-08 10:28:11,333 [INFO]  Building Test Iterator with 160 elements
+2019-05-08 10:28:11,365 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,371 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-08 10:28:11,372 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,376 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,380 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-08 10:28:11,384 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,389 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,393 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-08 10:28:11,395 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,404 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,409 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-08 10:28:11,410 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,414 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,424 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-08 10:28:11,425 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,429 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,441 [INFO]  Data Encoding - Encoded 160 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,446 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-08 10:28:11,446 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,452 [INFO]  Data Encoding - Encoded 160 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,456 [INFO]  Data Encoding - Encoded 160 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,460 [INFO]  Data Encoding - Encoded 160 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,467 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-08 10:28:11,470 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,476 [INFO]  Data Encoding - Encoded 160 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,480 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,495 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,502 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-08 10:28:11,504 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,509 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,532 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,539 [INFO]  Data Encoding - Encoded 160 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,552 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,562 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,577 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,586 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,592 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,601 [INFO]  Data Encoding - Encoded 160 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,607 [INFO]  Data Encoding - Encoded 160 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,622 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,627 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-08 10:28:11,628 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,637 [INFO]  Data Encoding - Encoded 160 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,646 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,652 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-08 10:28:11,654 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,659 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,667 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-08 10:28:11,670 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,677 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,685 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-08 10:28:11,688 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,695 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,703 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-08 10:28:11,707 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,713 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,722 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-08 10:28:11,723 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:28:11,729 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:28:11,748 [INFO]  Data Encoding - Encoded 160 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:28:11,749 [INFO]  CategoricalEncoder encoding 160 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-08 10:28:11,765 [INFO]  Label Encoding - Encoded 160 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (160, 1) and                             then into shape (160, 1)
+2019-05-08 10:28:11,769 [WARNING]  Test set does not contain any ocurrences of values [Cash X-Sell: low] in column [PRODUCT_COMBINATION], consider using a more representative test set.
+2019-05-08 10:28:11,770 [INFO]  Concatenating all 32 latent symbols
+2019-05-08 10:28:11,774 [INFO]  Constructing categorical loss for column PRODUCT_COMBINATION and 12 labels
+2019-05-08 10:28:11,777 [INFO]  Building output of label <Symbol PRODUCT_COMBINATION> with 13 classes                      (including missing class)
+2019-05-08 10:28:11,786 [INFO]  Building output symbols
+2019-05-08 10:28:11,827 [INFO]  
+========== start: fit model
+2019-05-08 10:28:11,830 [WARNING]  Already bound, ignoring bind()
+2019-05-08 10:28:16,054 [INFO]  Epoch[0] Batch [0-20]	Speed: 85.37 samples/sec	cross-entropy=1.261912	PRODUCT_COMBINATION-accuracy=0.586310
+2019-05-08 10:28:19,534 [INFO]  Epoch[0] Train-cross-entropy=0.983716
+2019-05-08 10:28:19,535 [INFO]  Epoch[0] Train-PRODUCT_COMBINATION-accuracy=0.682813
+2019-05-08 10:28:19,536 [INFO]  Epoch[0] Time cost=7.689
+2019-05-08 10:28:19,753 [INFO]  Saved checkpoint to "imputer_model0/model-0000.params"
+2019-05-08 10:28:21,023 [INFO]  Epoch[0] Validation-cross-entropy=0.590815
+2019-05-08 10:28:21,024 [INFO]  Epoch[0] Validation-PRODUCT_COMBINATION-accuracy=0.850000
+2019-05-08 10:28:25,004 [INFO]  Epoch[1] Batch [0-20]	Speed: 84.42 samples/sec	cross-entropy=0.425005	PRODUCT_COMBINATION-accuracy=0.869048
+2019-05-08 10:28:28,519 [INFO]  Epoch[1] Train-cross-entropy=0.399919
+2019-05-08 10:28:28,526 [INFO]  Epoch[1] Train-PRODUCT_COMBINATION-accuracy=0.882812
+2019-05-08 10:28:28,527 [INFO]  Epoch[1] Time cost=7.502
+2019-05-08 10:28:28,721 [INFO]  Saved checkpoint to "imputer_model0/model-0001.params"
+2019-05-08 10:28:29,991 [INFO]  Epoch[1] Validation-cross-entropy=0.373925
+2019-05-08 10:28:29,992 [INFO]  Epoch[1] Validation-PRODUCT_COMBINATION-accuracy=0.893750
+2019-05-08 10:28:33,852 [INFO]  Epoch[2] Batch [0-20]	Speed: 87.21 samples/sec	cross-entropy=0.274019	PRODUCT_COMBINATION-accuracy=0.910714
+2019-05-08 10:28:37,437 [INFO]  Epoch[2] Train-cross-entropy=0.271097
+2019-05-08 10:28:37,438 [INFO]  Epoch[2] Train-PRODUCT_COMBINATION-accuracy=0.918750
+2019-05-08 10:28:37,439 [INFO]  Epoch[2] Time cost=7.446
+2019-05-08 10:28:37,638 [INFO]  Saved checkpoint to "imputer_model0/model-0002.params"
+2019-05-08 10:28:38,924 [INFO]  Epoch[2] Validation-cross-entropy=0.305857
+2019-05-08 10:28:38,925 [INFO]  Epoch[2] Validation-PRODUCT_COMBINATION-accuracy=0.918750
+2019-05-08 10:28:42,799 [INFO]  Epoch[3] Batch [0-20]	Speed: 86.93 samples/sec	cross-entropy=0.204759	PRODUCT_COMBINATION-accuracy=0.943452
+2019-05-08 10:28:46,399 [INFO]  Epoch[3] Train-cross-entropy=0.206948
+2019-05-08 10:28:46,400 [INFO]  Epoch[3] Train-PRODUCT_COMBINATION-accuracy=0.948438
+2019-05-08 10:28:46,401 [INFO]  Epoch[3] Time cost=7.475
+2019-05-08 10:28:46,583 [INFO]  Saved checkpoint to "imputer_model0/model-0003.params"
+2019-05-08 10:28:47,851 [INFO]  Epoch[3] Validation-cross-entropy=0.273481
+2019-05-08 10:28:47,852 [INFO]  Epoch[3] Validation-PRODUCT_COMBINATION-accuracy=0.912500
+2019-05-08 10:28:51,895 [INFO]  Epoch[4] Batch [0-20]	Speed: 83.21 samples/sec	cross-entropy=0.163805	PRODUCT_COMBINATION-accuracy=0.961310
+2019-05-08 10:28:55,472 [INFO]  Epoch[4] Train-cross-entropy=0.167525
+2019-05-08 10:28:55,473 [INFO]  Epoch[4] Train-PRODUCT_COMBINATION-accuracy=0.965625
+2019-05-08 10:28:55,474 [INFO]  Epoch[4] Time cost=7.621
+2019-05-08 10:28:55,720 [INFO]  Saved checkpoint to "imputer_model0/model-0004.params"
+2019-05-08 10:28:57,134 [INFO]  Epoch[4] Validation-cross-entropy=0.258362
+2019-05-08 10:28:57,137 [INFO]  Epoch[4] Validation-PRODUCT_COMBINATION-accuracy=0.925000
+2019-05-08 10:29:01,122 [INFO]  Epoch[5] Batch [0-20]	Speed: 84.52 samples/sec	cross-entropy=0.136104	PRODUCT_COMBINATION-accuracy=0.964286
+2019-05-08 10:29:04,649 [INFO]  Epoch[5] Train-cross-entropy=0.140427
+2019-05-08 10:29:04,651 [INFO]  Epoch[5] Train-PRODUCT_COMBINATION-accuracy=0.970313
+2019-05-08 10:29:04,652 [INFO]  Epoch[5] Time cost=7.513
+2019-05-08 10:29:04,840 [INFO]  Saved checkpoint to "imputer_model0/model-0005.params"
+2019-05-08 10:29:06,167 [INFO]  Epoch[5] Validation-cross-entropy=0.250218
+2019-05-08 10:29:06,168 [INFO]  Epoch[5] Validation-PRODUCT_COMBINATION-accuracy=0.925000
+2019-05-08 10:29:10,198 [INFO]  Epoch[6] Batch [0-20]	Speed: 83.83 samples/sec	cross-entropy=0.116285	PRODUCT_COMBINATION-accuracy=0.973214
+2019-05-08 10:29:13,796 [INFO]  Epoch[6] Train-cross-entropy=0.120806
+2019-05-08 10:29:13,798 [INFO]  Epoch[6] Train-PRODUCT_COMBINATION-accuracy=0.978125
+2019-05-08 10:29:13,798 [INFO]  Epoch[6] Time cost=7.629
+2019-05-08 10:29:13,982 [INFO]  Saved checkpoint to "imputer_model0/model-0006.params"
+2019-05-08 10:29:15,271 [INFO]  Epoch[6] Validation-cross-entropy=0.245748
+2019-05-08 10:29:15,272 [INFO]  Epoch[6] Validation-PRODUCT_COMBINATION-accuracy=0.925000
+2019-05-08 10:29:19,326 [INFO]  Epoch[7] Batch [0-20]	Speed: 82.96 samples/sec	cross-entropy=0.101333	PRODUCT_COMBINATION-accuracy=0.979167
+2019-05-08 10:29:22,928 [INFO]  Epoch[7] Train-cross-entropy=0.105968
+2019-05-08 10:29:22,929 [INFO]  Epoch[7] Train-PRODUCT_COMBINATION-accuracy=0.981250
+2019-05-08 10:29:22,929 [INFO]  Epoch[7] Time cost=7.657
+2019-05-08 10:29:23,117 [INFO]  Saved checkpoint to "imputer_model0/model-0007.params"
+2019-05-08 10:29:24,416 [INFO]  Epoch[7] Validation-cross-entropy=0.243887
+2019-05-08 10:29:24,417 [INFO]  Epoch[7] Validation-PRODUCT_COMBINATION-accuracy=0.925000
+2019-05-08 10:29:28,530 [INFO]  Epoch[8] Batch [0-20]	Speed: 81.74 samples/sec	cross-entropy=0.089545	PRODUCT_COMBINATION-accuracy=0.982143
+2019-05-08 10:29:32,232 [INFO]  Epoch[8] Train-cross-entropy=0.094344
+2019-05-08 10:29:32,233 [INFO]  Epoch[8] Train-PRODUCT_COMBINATION-accuracy=0.985938
+2019-05-08 10:29:32,235 [INFO]  Epoch[8] Time cost=7.817
+2019-05-08 10:29:32,427 [INFO]  Saved checkpoint to "imputer_model0/model-0008.params"
+2019-05-08 10:29:33,721 [INFO]  Epoch[8] Validation-cross-entropy=0.243838
+2019-05-08 10:29:33,722 [INFO]  Epoch[8] Validation-PRODUCT_COMBINATION-accuracy=0.925000
+2019-05-08 10:29:37,781 [INFO]  Epoch[9] Batch [0-20]	Speed: 83.00 samples/sec	cross-entropy=0.080025	PRODUCT_COMBINATION-accuracy=0.982143
+2019-05-08 10:29:41,442 [INFO]  Epoch[9] Train-cross-entropy=0.085010
+2019-05-08 10:29:41,443 [INFO]  Epoch[9] Train-PRODUCT_COMBINATION-accuracy=0.987500
+2019-05-08 10:29:41,444 [INFO]  Epoch[9] Time cost=7.721
+2019-05-08 10:29:41,631 [INFO]  Saved checkpoint to "imputer_model0/model-0009.params"
+2019-05-08 10:29:42,921 [INFO]  Epoch[9] Validation-cross-entropy=0.244890
+2019-05-08 10:29:42,922 [INFO]  Epoch[9] Validation-PRODUCT_COMBINATION-accuracy=0.925000
+2019-05-08 10:29:47,209 [INFO]  Epoch[10] Batch [0-20]	Speed: 78.24 samples/sec	cross-entropy=0.072222	PRODUCT_COMBINATION-accuracy=0.982143
+2019-05-08 10:29:50,918 [INFO]  Epoch[10] Train-cross-entropy=0.077366
+2019-05-08 10:29:50,919 [INFO]  Epoch[10] Train-PRODUCT_COMBINATION-accuracy=0.987500
+2019-05-08 10:29:50,921 [INFO]  Epoch[10] Time cost=7.998
+2019-05-08 10:29:51,126 [INFO]  Saved checkpoint to "imputer_model0/model-0010.params"
+2019-05-08 10:29:52,434 [INFO]  No improvement detected for 3 epochs compared to 0.243886886164546 last error obtained: 0.24668995775282382, stopping here
+2019-05-08 10:29:52,435 [INFO]  Stopping training, patience reached
+2019-05-08 10:29:52,436 [INFO]  
+========== done (100.60923624038696 s) fit model
+2019-05-08 10:29:53,740 [INFO]  Expected calibration error: 5.9%
+2019-05-08 10:29:53,964 [INFO]  Expected calibration error after calibration: 4.6%
+2019-05-08 10:29:56,537 [INFO]  Keeping 160/160 not-missing values for evaluation of PRODUCT_COMBINATION
+2019-05-08 10:29:56,591 [INFO]  average classification metrics:
+2019-05-08 10:29:56,594 [INFO]  label: PRODUCT_COMBINATION - [('avg_precision', 0.6758814856640943), ('avg_recall', 0.6993447993447993), ('avg_f1', 0.6867353860532427), ('avg_accuracy', 0.93125)]
+2019-05-08 10:29:56,595 [INFO]  weighted average classification metrics:
+2019-05-08 10:29:56,597 [INFO]  label: PRODUCT_COMBINATION - [('weighted_precision', 0.9058719375431332), ('weighted_recall', 0.93125), ('weighted_f1', 0.9173634422325897), ('weighted_accuracy', 0.93125)]
+2019-05-08 10:29:56,600 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.99962317943573
+2019-05-08 10:29:56,602 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9991235136985779
+2019-05-08 10:29:56,604 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9983996748924255
+2019-05-08 10:29:56,607 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS household without interest	Reaching 0.9285714285714286 precision / 0.8666666666666667 recall at threshold 0.8725219964981079
+2019-05-08 10:29:56,610 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: high	Reaching 0.75 precision / 0.6 recall at threshold 0.7542812824249268
+2019-05-08 10:29:56,612 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS other with interest	Reaching 1.0 precision / 0.0 recall at threshold 0.9942069053649902
+2019-05-08 10:29:56,615 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: high	Reaching 0.0 precision / 0.0 recall at threshold 0.9367694854736328
+2019-05-08 10:29:56,618 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS industry without interest	Reaching 0.0 precision / 0.0 recall at threshold 0.26197901368141174
+2019-05-08 10:29:56,621 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash X-Sell: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.6984896063804626
+2019-05-08 10:29:56,625 [INFO]  Attribute PRODUCT_COMBINATION, Label: POS mobile without interest	Reaching 0.5 precision / 0.25 recall at threshold 0.02251558005809784
+2019-05-08 10:29:56,628 [INFO]  Attribute PRODUCT_COMBINATION, Label: Cash Street: middle	Reaching 1.0 precision / 0.0 recall at threshold 0.850001335144043
+2019-05-08 10:29:56,633 [INFO]  save metrics in imputer_model0/fit-test-metrics.json
+2019-05-08 10:29:56,637 [INFO]  Keeping imputer_model0/model-0008.params
+2019-05-08 10:29:56,640 [INFO]  Deleting imputer_model0/model-0005.params
+2019-05-08 10:29:56,644 [INFO]  Deleting imputer_model0/model-0004.params
+2019-05-08 10:29:56,648 [INFO]  Deleting imputer_model0/model-0000.params
+2019-05-08 10:29:56,651 [INFO]  Deleting imputer_model0/model-0006.params
+2019-05-08 10:29:56,655 [INFO]  Deleting imputer_model0/model-0010.params
+2019-05-08 10:29:56,658 [INFO]  Deleting imputer_model0/model-0001.params
+2019-05-08 10:29:56,662 [INFO]  Deleting imputer_model0/model-0002.params
+2019-05-08 10:29:56,666 [INFO]  Deleting imputer_model0/model-0007.params
+2019-05-08 10:29:56,669 [INFO]  Deleting imputer_model0/model-0003.params
+2019-05-08 10:29:56,672 [INFO]  Deleting imputer_model0/model-0009.params
+2019-05-08 10:29:56,709 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,714 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-08 10:29:56,715 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,720 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,727 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-08 10:29:56,728 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,732 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,737 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-08 10:29:56,738 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,744 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,750 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-08 10:29:56,751 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,756 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,762 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-08 10:29:56,764 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,771 [INFO]  Data Encoding - Encoded 160 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,779 [INFO]  Data Encoding - Encoded 160 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,786 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-08 10:29:56,787 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,792 [INFO]  Data Encoding - Encoded 160 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,797 [INFO]  Data Encoding - Encoded 160 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,804 [INFO]  Data Encoding - Encoded 160 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,808 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-08 10:29:56,810 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,816 [INFO]  Data Encoding - Encoded 160 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,822 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,831 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,836 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-08 10:29:56,837 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,842 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,856 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,860 [INFO]  Data Encoding - Encoded 160 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,868 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,875 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,888 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,894 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,901 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,911 [INFO]  Data Encoding - Encoded 160 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,920 [INFO]  Data Encoding - Encoded 160 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,932 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,938 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-08 10:29:56,939 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,944 [INFO]  Data Encoding - Encoded 160 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,952 [INFO]  Data Encoding - Encoded 160 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:56,957 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-08 10:29:56,959 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,964 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,970 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-08 10:29:56,972 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,976 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,984 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-08 10:29:56,985 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:56,990 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:56,994 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-08 10:29:56,996 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:57,004 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:57,009 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-08 10:29:57,011 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:57,018 [INFO]  Data Encoding - Encoded 160 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (160, 1)                         and then into shape (160, 1)
+2019-05-08 10:29:57,027 [INFO]  Data Encoding - Encoded 160 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (160, 32768)                         and then into shape (160, 32768)
+2019-05-08 10:29:57,028 [INFO]  CategoricalEncoder encoding 160 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-08 10:29:57,038 [INFO]  Label Encoding - Encoded 160 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (160, 1) and                             then into shape (160, 1)
+2019-05-08 10:29:58,491 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,496 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-08 10:29:58,497 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,502 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,507 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-08 10:29:58,509 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,513 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,519 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-08 10:29:58,521 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,523 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,529 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-08 10:29:58,531 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,536 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,544 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-08 10:29:58,545 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,550 [INFO]  Data Encoding - Encoded 640 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,567 [INFO]  Data Encoding - Encoded 640 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,572 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-08 10:29:58,572 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,575 [INFO]  Data Encoding - Encoded 640 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,582 [INFO]  Data Encoding - Encoded 640 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,595 [INFO]  Data Encoding - Encoded 640 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,600 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-08 10:29:58,602 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,606 [INFO]  Data Encoding - Encoded 640 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,617 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,636 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,641 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-08 10:29:58,643 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,648 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,688 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,695 [INFO]  Data Encoding - Encoded 640 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,717 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,732 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,756 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,769 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,777 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,804 [INFO]  Data Encoding - Encoded 640 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,820 [INFO]  Data Encoding - Encoded 640 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,853 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,864 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-08 10:29:58,866 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,872 [INFO]  Data Encoding - Encoded 640 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,887 [INFO]  Data Encoding - Encoded 640 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,891 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-08 10:29:58,892 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,898 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,903 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-08 10:29:58,905 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,908 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,914 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-08 10:29:58,915 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,920 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,926 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-08 10:29:58,928 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,933 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,940 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-08 10:29:58,941 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:29:58,945 [INFO]  Data Encoding - Encoded 640 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (640, 1)                         and then into shape (640, 1)
+2019-05-08 10:29:58,967 [INFO]  Data Encoding - Encoded 640 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (640, 32768)                         and then into shape (640, 32768)
+2019-05-08 10:29:58,969 [INFO]  CategoricalEncoder encoding 640 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-08 10:29:58,979 [INFO]  Label Encoding - Encoded 640 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (640, 1) and                             then into shape (640, 1)
+2019-05-08 10:30:04,166 [INFO]  Finished hpo iteration 0
+2019-05-08 10:30:04,167 [INFO]  Assigning model with highest weighted precision to SimpleImputer object and copying artifacts.
+2019-05-08 10:30:04,168 [INFO]  Selecting imputer with maximal weighted precision.
+2019-05-08 10:30:04,251 [INFO]  Output path for loading Imputer imputer_model
+2019-05-08 10:30:04,257 [INFO]  Loading mxnet model from imputer_model/model
+2019-05-08 10:30:04,257 [INFO]  Loading mxnet model from imputer_model/model
+2019-05-08 10:32:25,788 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,788 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CONTRACT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,791 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-08 10:32:25,791 [INFO]  Concatenating numeric columns ['AMT_ANNUITY'] into AMT_ANNUITY_numeric
+2019-05-08 10:32:25,793 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,793 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,796 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,796 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_ANNUITY with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,800 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-08 10:32:25,800 [INFO]  Concatenating numeric columns ['AMT_APPLICATION'] into AMT_APPLICATION_numeric
+2019-05-08 10:32:25,801 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,801 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,807 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,807 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_APPLICATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,816 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-08 10:32:25,816 [INFO]  Concatenating numeric columns ['AMT_CREDIT'] into AMT_CREDIT_numeric
+2019-05-08 10:32:25,818 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,818 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,822 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,822 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_CREDIT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,826 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-08 10:32:25,826 [INFO]  Concatenating numeric columns ['AMT_DOWN_PAYMENT'] into AMT_DOWN_PAYMENT_numeric
+2019-05-08 10:32:25,829 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,829 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,834 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,834 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,842 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-08 10:32:25,842 [INFO]  Concatenating numeric columns ['AMT_GOODS_PRICE'] into AMT_GOODS_PRICE_numeric
+2019-05-08 10:32:25,844 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,844 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,849 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,849 [INFO]  Data Encoding - Encoded 208 rows of column                         AMT_GOODS_PRICE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,862 [INFO]  Data Encoding - Encoded 208 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,862 [INFO]  Data Encoding - Encoded 208 rows of column                         WEEKDAY_APPR_PROCESS_START with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,871 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-08 10:32:25,871 [INFO]  Concatenating numeric columns ['HOUR_APPR_PROCESS_START'] into HOUR_APPR_PROCESS_START_numeric
+2019-05-08 10:32:25,872 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,872 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,877 [INFO]  Data Encoding - Encoded 208 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,877 [INFO]  Data Encoding - Encoded 208 rows of column                         HOUR_APPR_PROCESS_START with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,884 [INFO]  Data Encoding - Encoded 208 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,884 [INFO]  Data Encoding - Encoded 208 rows of column                         FLAG_LAST_APPL_PER_CONTRACT with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,889 [INFO]  Data Encoding - Encoded 208 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,889 [INFO]  Data Encoding - Encoded 208 rows of column                         NFLAG_LAST_APPL_IN_DAY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,893 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-08 10:32:25,893 [INFO]  Concatenating numeric columns ['RATE_DOWN_PAYMENT'] into RATE_DOWN_PAYMENT_numeric
+2019-05-08 10:32:25,895 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,895 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,899 [INFO]  Data Encoding - Encoded 208 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,899 [INFO]  Data Encoding - Encoded 208 rows of column                         RATE_DOWN_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,909 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,909 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CASH_LOAN_PURPOSE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,919 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,919 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CONTRACT_STATUS with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,923 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-08 10:32:25,923 [INFO]  Concatenating numeric columns ['DAYS_DECISION'] into DAYS_DECISION_numeric
+2019-05-08 10:32:25,924 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,924 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:25,929 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,929 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_DECISION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:25,949 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,949 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_PAYMENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,955 [INFO]  Data Encoding - Encoded 208 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,955 [INFO]  Data Encoding - Encoded 208 rows of column                         CODE_REJECT_REASON with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,970 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,970 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_TYPE_SUITE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,979 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,979 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_CLIENT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,994 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:25,994 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_GOODS_CATEGORY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,003 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,003 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_PORTFOLIO with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,009 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,009 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_PRODUCT_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,025 [INFO]  Data Encoding - Encoded 208 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,025 [INFO]  Data Encoding - Encoded 208 rows of column                         CHANNEL_TYPE with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,033 [INFO]  Data Encoding - Encoded 208 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,033 [INFO]  Data Encoding - Encoded 208 rows of column                         SELLERPLACE_AREA with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,052 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,052 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_SELLER_INDUSTRY with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,057 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-08 10:32:26,057 [INFO]  Concatenating numeric columns ['CNT_PAYMENT'] into CNT_PAYMENT_numeric
+2019-05-08 10:32:26,059 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,059 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,064 [INFO]  Data Encoding - Encoded 208 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,064 [INFO]  Data Encoding - Encoded 208 rows of column                         CNT_PAYMENT with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,074 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,074 [INFO]  Data Encoding - Encoded 208 rows of column                         NAME_YIELD_GROUP with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,082 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-08 10:32:26,082 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DRAWING'] into DAYS_FIRST_DRAWING_numeric
+2019-05-08 10:32:26,083 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,083 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,087 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,087 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_FIRST_DRAWING with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,091 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-08 10:32:26,091 [INFO]  Concatenating numeric columns ['DAYS_FIRST_DUE'] into DAYS_FIRST_DUE_numeric
+2019-05-08 10:32:26,093 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,093 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,099 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,099 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_FIRST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,106 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-08 10:32:26,106 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE_1ST_VERSION'] into DAYS_LAST_DUE_1ST_VERSION_numeric
+2019-05-08 10:32:26,109 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,109 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,114 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,114 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_LAST_DUE_1ST_VERSION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,118 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-08 10:32:26,118 [INFO]  Concatenating numeric columns ['DAYS_LAST_DUE'] into DAYS_LAST_DUE_numeric
+2019-05-08 10:32:26,120 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,120 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,125 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,125 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_LAST_DUE with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,134 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-08 10:32:26,134 [INFO]  Concatenating numeric columns ['DAYS_TERMINATION'] into DAYS_TERMINATION_numeric
+2019-05-08 10:32:26,136 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,136 [INFO]  Normalizing with StandardScaler
+2019-05-08 10:32:26,140 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,140 [INFO]  Data Encoding - Encoded 208 rows of column                         DAYS_TERMINATION with <class 'datawig.column_encoders.NumericalEncoder'> into                         <class 'numpy.ndarray'> of shape (208, 1)                         and then into shape (208, 1)
+2019-05-08 10:32:26,148 [INFO]  Data Encoding - Encoded 208 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,148 [INFO]  Data Encoding - Encoded 208 rows of column                         NFLAG_INSURED_ON_APPROVAL with <class 'datawig.column_encoders.BowEncoder'> into                         <class 'scipy.sparse.csr.csr_matrix'> of shape (208, 32768)                         and then into shape (208, 32768)
+2019-05-08 10:32:26,149 [INFO]  CategoricalEncoder encoding 208 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-08 10:32:26,149 [INFO]  CategoricalEncoder encoding 208 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
+2019-05-08 10:32:26,158 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
+2019-05-08 10:32:26,158 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
