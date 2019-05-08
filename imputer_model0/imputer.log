@@ -531,3 +531,11 @@
 2019-05-08 10:32:26,149 [INFO]  CategoricalEncoder encoding 208 rows with                     12 tokens from column PRODUCT_COMBINATION to                     column PRODUCT_COMBINATION
 2019-05-08 10:32:26,158 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
 2019-05-08 10:32:26,158 [INFO]  Label Encoding - Encoded 208 rows of column                             PRODUCT_COMBINATION with <class 'datawig.column_encoders.CategoricalEncoder'> into                             <class 'numpy.ndarray'> of shape (208, 1) and                             then into shape (208, 1)
+2019-05-08 11:59:13,419 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-08 11:59:13,419 [ERROR]  Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-05-08 11:59:13,420 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-08 11:59:13,420 [ERROR]  Invalid alias: The name more can't be aliased because it is another magic command.
+2019-05-08 11:59:13,421 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-08 11:59:13,421 [ERROR]  Invalid alias: The name less can't be aliased because it is another magic command.
+2019-05-08 11:59:13,422 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.
+2019-05-08 11:59:13,422 [ERROR]  Invalid alias: The name man can't be aliased because it is another magic command.

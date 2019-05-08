@@ -1,16 +1,14 @@
 Directory Structure:
 
 ```
-.
 ├── 10_20_2018_Machine-Learning-Project-Checklist.txt
-├── Align.ipynb
-├── Automated_Feature_Engineering_with_Featuretools.ipynb
+├── Automated Feature Engineering with Featuretools.ipynb
 ├── Cleansing the Data.ipynb
 ├── Data Preparation and Visualization.ipynb
-├── Dropping Columns  to Handle  Missing Data.ipynb
 ├── Groupby.ipynb
 ├── Impute Categorical with DataWig.ipynb
-├── Indexing Dataframes.ipynb
+├── Impuyte fastKNN to Impute Missing Data.ipynb
+├── Indexing and Reshaping Dataframes.ipynb
 ├── Interactive Visualization.ipynb
 ├── Pipeline.ipynb
 ├── Quilt Setup HomeCredit Data.ipynb
@@ -20,6 +18,8 @@ Directory Structure:
 ├── data\
 ├── data-prep-env\
 ├── images\
+├── imputer_model
+├── imputer_model0
 ├── requirements.txt
 └── scripts\
  
@@ -42,7 +42,8 @@ Directory Structure:
 
 * Simple Impute - SkLearn
 * Neural Net to Impute Categoricals -- DataWig (Impute Categorical with DataWig)
-* Advanced Exercise : Numerical Impute 
+* Exercise : Numerical Impute -- Datawig
+* Exercise : Categorical Impute -- fastKKNN Impuyte
 * Automatic Feature Generation -- Featuretools (Automated_Feature_Engineering_with_Featuretools.ipynb)
 * Piplelines (Pipeline.ipynb)
 * Reshaping Dataframes -- Self Assessment (Reshaping Dataframes Exercises.ipynb)
